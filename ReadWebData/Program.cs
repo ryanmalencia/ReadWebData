@@ -37,6 +37,9 @@ namespace ReadWebData
 
             readPrintLocations();
             readDiningLocations();
+            readFitnessLocations();
+            readLibraryLocations();
+            readComputerLocations();
         }
 
         private static void readPrintLocations()
@@ -67,6 +70,54 @@ namespace ReadWebData
                 loc.Latitude = double.Parse(temp[2]);
                 loc.Longitude = double.Parse(temp[3]);
                 LocationAPI.AddDiningLocation(loc);
+            }
+        }
+
+        private static void readFitnessLocations()
+        {
+            string[] locations = File.ReadAllLines(@"C:\AppFiles\fitnesscoords.txt");
+
+            for (int i = 0; i < locations.Length; i++)
+            {
+                FitnessLocation loc = new FitnessLocation();
+                string[] temp = locations[i].Split(';');
+                loc.Name = temp[0];
+                loc.SubTitle = temp[1];
+                loc.Latitude = double.Parse(temp[2]);
+                loc.Longitude = double.Parse(temp[3]);
+                LocationAPI.AddFitnessLocation(loc);
+            }
+        }
+
+        private static void readLibraryLocations()
+        {
+            string[] locations = File.ReadAllLines(@"C:\AppFiles\librarycoords.txt");
+
+            for (int i = 0; i < locations.Length; i++)
+            {
+                LibraryLocation loc = new LibraryLocation();
+                string[] temp = locations[i].Split(';');
+                loc.Name = temp[0];
+                loc.SubTitle = temp[1];
+                loc.Latitude = double.Parse(temp[2]);
+                loc.Longitude = double.Parse(temp[3]);
+                LocationAPI.AddLibraryLocation(loc);
+            }
+        }
+
+        private static void readComputerLocations()
+        {
+            string[] locations = File.ReadAllLines(@"C:\AppFiles\computercoords.txt");
+
+            for (int i = 0; i < locations.Length; i++)
+            {
+                ComputerLocation loc = new ComputerLocation();
+                string[] temp = locations[i].Split(';');
+                loc.Name = temp[0];
+                loc.SubTitle = temp[1];
+                loc.Latitude = double.Parse(temp[2]);
+                loc.Longitude = double.Parse(temp[3]);
+                LocationAPI.AddComputerLocation(loc);
             }
         }
 

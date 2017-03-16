@@ -1,0 +1,1845 @@
+
+	<!doctype html>
+<html>
+<head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Pitt Events - PittsburghPanthers.com - Official Athletic Site of the University of Pittsburgh</title>
+<meta name="description" content=" The Official Athletic Site of Pitt Panthers Events, partner of CBS Sports Digital. The most comprehensive coverage of the Panthers on the web." />
+
+  <link rel="icon" type="image/png" href="http://grfx.cstv.com/schools/pitt/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="http://grfx.cstv.com/schools/pitt/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://grfx.cstv.com/schools/pitt/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://grfx.cstv.com/schools/pitt/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="http://grfx.cstv.com/schools/pitt/favicon-128.png" sizes="128x128">
+<link rel="shortcut icon" href="http://grfx.cstv.com/schools/pitt/favicon.ico?v=2">
+
+
+  <link rel="image_src" href="http://grfx.cstv.com/graphics/school-logos/pitt-lg.png" />
+
+  <link rel="stylesheet" type='text/css' href="http://grfx.cstv.com/frontend/fontawesome-4/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="http://www.pittsburghpanthers.com/library/css/pitt15.css">
+  <link rel="stylesheet" type="text/css" href="http://grfx.cstv.com/scripts/csui/twitterfeed/csui.twitterfeed.2-generic.css" />
+  <link rel="stylesheet" type="text/css" href="http://grfx.cstv.com/scripts/csui/calendar/csui.calendar.2.css" />
+  <!--[if lt IE 9 ]><style> html, body, #header, #page, #sport-nav { min-width: 1024px; } </style><![endif]-->
+  <script src="http://grfx.cstv.com/scripts/common.js"></script>
+  <script src="http://grfx.cstv.com/scripts/oas-omni-controls.js"></script>
+  <script src="http://grfx.cstv.com/scripts/jquery/jquery-1.10.2.min.js"></script>
+  <script src="http://grfx.cstv.com/frontend/lazy/lazy.js"></script>
+  <script src="http://grfx.cstv.com/frontend/bxslider-4/jquery.bxslider.min.js"></script>
+  <script src="http://grfx.cstv.com/frontend/responsive/responsive-library.1.js"></script>
+  <script src="http://grfx.cstv.com/frontend/responsive/js/responsive.bsi.js"></script>
+  <script src="http://grfx.cstv.com/frontend/responsive/js/responsive.nav.js"></script>
+  <script src="http://grfx.cstv.com/scripts/csui/calendar/jquery.calendar.2.js"></script>
+  <script src="http://grfx.cstv.com/scripts/csui/twitterfeed/csui.twitterfeed.2.js"></script>
+  <script src="http://grfx.cstv.com/scripts/jquery/jquery-widget.instagram.v3.js"></script>
+  <script src="http://grfx.cstv.com/scripts/jquery.cycle2.min.js"></script>
+  <script>
+  var schoolCode = "pitt",
+      oas_site_config = { responsive: true };
+  </script>
+  <!-- Approved and added on 7/12/16 -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '256156034764754');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=256156034764754&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+</head>
+<body id="non-sport" class="bsi-full events">
+
+<div id="skinWrap">
+  <div id="adSkinLeft"></div>
+  <div id="adSkinRight"></div>
+</div>
+<script>
+function renderAdCallback(obj) {
+  if (obj.skinType) {
+    document.getElementsByTagName("body")[0].className += " skin-yes";
+  }
+  //In case we need to move it up/down based on masthead
+  $(function() {
+    var mastHeadHeight = 80;
+    document.getElementById("skinWrap").style.top =  mastHeadHeight + "px"
+  });
+}
+</script>
+
+<div id="quick-nav">
+<a href="http://ev12.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?groupCode=GS&linkID=pitt&shopperContext=&caller=&appCode&utm_source=PittsburghPanthers.com&utm_medium=website%20-%20action%20bar&utm_campaign=2015%20Evenue%20Ticket%20Homepage" target="_blank">Buy Tickets</a>
+<a href="https://shoppittpanthers.com/ " target="_blank">Shop Now</a>
+<a href="http://bit.ly/2l8GlS0" target="_blank">Donate Today</a>
+<a href="https://pittsburghpanthers.cbsi-auctions.com" target="_blank">Auction</a>
+
+</div>
+<div id="header">
+
+
+
+<a href="/" class="logo"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-mast-logo.png" alt="Home" /></a>
+
+<div id="main-nav">
+  <a id="main-nav-icon" class="rnav-icon">
+    <i class="fa fa-bars"></i>
+  </a>
+  <ul id="nav" class="rnav">
+   <div class="hidelarge">
+    <i class="fa fa-times" onclick="$('#main-nav-icon').removeClass('open');$('#nav').removeClass('open');$('#rnav-content-block').removeClass('visible');"></i>
+   </div>
+
+
+   <li>
+      <a href="#">Tickets</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+        <!--  <li><a href="http://www.pittsburghpanthers.com/tickets/pitt-fb-tickets-postseason.html" target="_blank">2016 New Era Pinstripe Bowl</a></li>-->
+          <li><a href="http://bit.ly/2bqw39A" target="_blank">Buy Tickets</a></li>
+          <li><a href="/tickets/pitt-tickets.html">Main Window</a></li>
+          <li><a href="http://bit.ly/2ldOWyO" target="_blank">Ticket Center / Manage My Account</a></li>
+          <li><a href="/tickets/marketplace.html">StubHub Ticket Marketplace</a></li>   
+          <li><a href="/tickets/pitt-tickets-students.html">Students</a></li>          
+          <li><a href="/tickets/pitt-parking.html">Parking</a></li>
+          <li><a href="/tickets/pitt-tickets-m-basebl.html">Baseball</a></li>
+         <li><a href="/tickets/pitt-fb-tickets.html">Football</a></li>
+          <!--<li><a href="/tickets/pitt-tickets-w-gym.html">Gymnastics</a></li>
+          <li><a href="/tickets/pitt-tickets-w-volley.html">Volleyball</a></li> -->
+          <!--<li><a href="/tickets/pitt-tickets-m-wrestl.html" target="_blank">Wrestling</a></li> -->
+          <!--<li><a href="/tickets/pitt-tickets-students.html">Students</a></li>-->
+          <!--<li><a href="/tickets/pitt-softbl-tickets.html">Softball</a></li>-->
+          <!-- <li><a href="http://bit.ly/1P6MqHp" target="_blank">Gymnastics</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Teams</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/m-basebl/pitt-m-basebl-body.html">Baseball</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/m-basebl/sched/pitt-m-basebl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/m-basebl/mtt/pitt-m-basebl-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/m-basebl/mtt/pitt-m-basebl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/m-baskbl/pitt-m-baskbl-body.html">Basketball (M)</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/m-baskbl/sched/pitt-m-baskbl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/m-baskbl/mtt/pitt-m-baskbl-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/m-baskbl/mtt/pitt-m-baskbl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-baskbl/pitt-w-baskbl-body.html">Basketball (W)</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/w-baskbl/sched/pitt-w-baskbl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-baskbl/mtt/pitt-w-baskbl-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/w-baskbl/mtt/pitt-w-baskbl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+                        <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/c-xc/pitt-c-xc-body.html">Cross Country</a>
+              </div>
+              <div class="nav-sect-two">
+                  <a class='nv-sch' href="/sports/c-xc/sched/pitt-c-xc-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/c-xc/mtt/pitt-c-xc-mtt.html">Roster</a> <i class="slash"></i>
+                 <a class='nv-new' href="/sports/c-xc/mtt/pitt-c-xc-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+                        <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/m-footbl/pitt-m-footbl-body.html">Football</a>
+              </div>
+              <div class="nav-sect-two">
+                  <a class='nv-sch' href="/sports/m-footbl/sched/pitt-m-footbl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/m-footbl/mtt/pitt-m-footbl-mtt.html">Roster</a> <i class="slash"></i>
+                 <a class='nv-new' href="/sports/m-footbl/mtt/pitt-m-footbl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-gym/pitt-w-gym-body.html">Gymnastics</a>
+              </div>
+              <div class="nav-sect-two">
+                  <a class='nv-sch' href="/sports/w-gym/sched/pitt-w-gym-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-gym/mtt/pitt-w-gym-mtt.html">Roster</a> <i class="slash"></i>
+                 <a class='nv-new' href="/sports/w-gym/mtt/pitt-w-gym-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/m-soccer/pitt-m-soccer-body.html">Soccer (M)</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/m-soccer/sched/pitt-m-soccer-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/m-soccer/mtt/pitt-m-soccer-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="http://www.pittsburghpanthers.com/staffdir/pitt-staffdir.html#msocstaff">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+          </ul>
+          <ul class="rnav-column sports">
+                                              <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-soccer/pitt-w-soccer-body.html">Soccer (W)</a>
+              </div>
+              <div class="nav-sect-two">
+                  <a class='nv-sch' href="/sports/w-soccer/sched/pitt-w-soccer-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-soccer/mtt/pitt-w-soccer-mtt.html">Roster</a> <i class="slash"></i>
+                 <a class='nv-new' href="/sports/w-soccer/mtt/pitt-w-soccer-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-softbl/pitt-w-softbl-body.html">Softball</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/w-softbl/sched/pitt-w-softbl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-softbl/mtt/pitt-w-softbl-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/w-softbl/mtt/pitt-w-softbl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+                        <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/c-swim/pitt-c-swim-body.html">Swimming + Diving</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/c-swim/sched/pitt-c-swim-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/c-swim/mtt/pitt-c-swim-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="http://www.pittsburghpanthers.com/staffdir/pitt-staffdir.html#swimstaff">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-tennis/pitt-w-tennis-body.html">Tennis</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/w-tennis/sched/pitt-w-tennis-sched.html">Schedule</a>  <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-tennis/mtt/pitt-w-tennis-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/w-tennis/mtt/pitt-w-tennis-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/c-track/pitt-c-track-body.html">Track + Field</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/c-track/sched/pitt-c-track-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/c-track/mtt/pitt-c-track-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/c-track/mtt/pitt-c-track-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+            <li>
+            <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/w-volley/pitt-w-volley-body.html">Volleyball</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/w-volley/sched/pitt-w-volley-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/w-volley/mtt/pitt-w-volley-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/w-volley/mtt/pitt-w-volley-mtt.html#coaches">Staff</a> <i class="slash"></i>
+            </li>
+            <li>
+              <div class="nav-sect-one">
+                <a class='nv-spo' href="/sports/m-wrestl/pitt-m-wrestl-body.html">Wrestling</a>
+              </div>
+              <div class="nav-sect-two">
+                <a class='nv-sch' href="/sports/m-wrestl/sched/pitt-m-wrestl-sched.html">Schedule</a> <i class="slash"></i>
+                <a class='nv-ros' href="/sports/m-wrestl/mtt/pitt-m-wrestl-mtt.html">Roster</a> <i class="slash"></i>
+                <a class='nv-new' href="/sports/m-wrestl/mtt/pitt-m-wrestl-mtt.html#coaches">Staff</a> <i class="slash"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Broadcasts</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+          	<li><a href="http://www.theacc.com/videos" target="_blank">ACC Digital Network</a></li>
+     <li><a href="http://www.theacc.com/news/acc-network-set-to-launch-in-2019-07-21-2016" target="_blank">ACC Network</a></li>     	
+            <li><a href="/calendar/upcoming-events.html" target="_blank">Broadcast Schedule</a></li>
+            <li><a href="/collegesportslive/" target="_blank">College Sports Live: Launch Player</a></li>
+            <li><a href="/multimedia/all-access.html">College Sports Live: Registration</a></li>
+            <li><a href="/sports/m-footbl/footballbroadcast.html">Game Broadcasts: Football</a></li>
+            <li><a href="/sports/m-baskbl/mbbbroadcast.html">Game Broadcasts: Basketball (M)</a></li>
+            <li><a href="/sports/w-baskbl/wbbbroadcast.html">Game Broadcasts: Basketball (W)</a></li>
+            <li><a href="/multimedia/audio.html">Live Audio Options</a></li>
+            <li><a href="/multimedia/stallings-show.html">Radio Show: Kevin Stallings</a></li>
+            <li><a href="/sports/m-footbl/narduzzishow.html">Radio Show: Pat Narduzzi</a></li>
+            <li><a href="/multimedia/mcconnellserioshow.html">Radio Show: Suzie McConnell-Serio</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Fans</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+<!-- <li><a href="http://www.pittsburghpanthers.com/gameday/pitt-mbb-acc-2017.html">2017 Men's Basketball ACC Tournament Central</a></li> -->
+<!-- <li><a href="http://www.pittsburghpanthers.com/gameday/pitt-wbb-acc-2017.html">2017 Women's Basketball ACC Tournament</a></li> -->
+              <!--<li><a href="http://www.pittsburghpanthers.com/tickets/pitt-season-tickets-renewal-incentive-m-footbl.html" target="_blank">2017 Pitt Football Ticket Renewal Incentive Calendar</a></li> -->
+<li><a href="http://www.pittsburghpanthers.com/sports/m-footbl/17-spring-game.html">2017 Blue-Gold Spring Game</a></li>
+			<!--<li><a href="/gameday/pitt-gameday-mbb-2015.html" target="_blank">Men's Basketball Game Day Central</a></li>-->
+			<!--<li><a href="/gameday/pitt-gameday-wbb-2015.html" target="_blank">Women's Basketball Game Day Central</a></li>-->
+		<!--	<li><a href="http://www.pittsburghpanthers.com/tickets/pitt-fb-tickets-postseason.html" target="_blank">2016 New Era Pinstripe Bowl</a></li>-->
+			<li><a href="/wireless/GDLS3.html">Apps: Mobile and Tablet</a></li>
+			<!-- <li><a href="http://www.pittsburghpanthers.com/sports/m-footbl/16-fan-fest.html">Events: 2016 Football Fan Fest</a></li> -->
+			<li><a href="http://www.pittsburghpanthers.com/camps/pitt-camps.html">Camps and Clinics</a></li>
+			<li><a href="/sports/m-footbl/spec-rel/all-clear-heinz-field.html">Heinz Field: Bag Policy</a></li>
+			<li><a href="/tickets/studentfootball-shuttles.html">Heinz Field: Student Shuttles</a></li>
+			<li><a href="/jrpanthers/">Jr. Panther Days</a></li>
+			<li><a href="/ot/script-merchandise-guide.html">Merchandise Guide</a></li>
+			<li><a href="https://pittsburghpanthers.cbsi-auctions.com" target="_blank">Online Auction</a></li>
+	  		<li><a href="http://www.pittsburghpanthers.com/ot/fanscommittee.html">Panther Fans Experience Committee</a></li>
+			<li><a href="/tickets/pitt-parking.html">Parking</a></li>
+      <li><a href="http://www.pittsburghpanthers.com/multimedia/posters.html">Posters: Download/Print</a></li>
+			<li><a href="/ot/promotions.html">Promotions</a></li>
+			<!-- <li><a href="http://www.pittsburghpanthers.com/ot/rock-your-colors.html">Rock Your College Colors</a></li> -->
+			<li><a href="/multimedia/socialmedia.html">Social Media: Pitt Directory</a></li>
+			<li><a href="/multimedia/socialmedia-national.html">Social Media: National Directory</a></li>
+			<li><a href="http://www.pittsburghpanthers.com/travel/pitt-travel-center.html">Travel Center</a></li>
+            
+            
+            
+            <!--<li><a href="/multimedia/wallpapers.html">Desktop and Mobile Wallpapers</a></li>-->
+            
+            
+            
+            
+            <!--<li><a href="http://pittmbb7.imgcollege.com/">Men's Basketball Digital Guide - Issue 7</a></li>-->
+
+             
+	 <!--<li><a href="http://pittmbb4.imgcollege.com/" target="_blank">Basketball Interactive Guide - Issue 4</a></li>-->
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Athletics</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+              <li><a href="https://spark.adobe.com/page/uz3eMLmolM2dh/" target="_blank">16 Memorable Moments of 2016</a></li>
+		  	<li><a href="/calendar/events/">Calendar</a></li>
+		  	<li><a href="/ot/panther-game-plan.html">Cathy and John Pelusi Family Life Skills Program</a></li>
+		  	<li><a href="/compliance/pitt-compliance.html">Compliance</a></li>
+		  	<li><a href="/facilities/pitt-facilities.html">Facilities</a></li>
+		  	<li><a href="/ot/pitt-licensing.html">Licensing and Merchandising </a></li>
+		  	<li><a href="/sportsmedicine/home.html">Sports Medicine</a></li>
+		  	<li><a href="/staffdir/pitt-staffdir.html">Staff Directory</a></li>
+		  	<li><a href="/strengthconditioning/home.html">Strength and Conditioning </a></li>
+		  	<li><a href="http://pittband.com/" target="_blank">Traditions: Band</a></li>
+		  	<li><a href="/trads/pitt-trads-mascot.html">Traditions: Mascot</a></li>
+            <li><a href="/trads/pitt-trads-spirit.html">Traditions: Spirit</a></li>
+			<li><a href="https://spark.adobe.com/page/Bckch/" target="_blank">Uniforms</a></li>
+            <li><a href="https://spark.adobe.com/page/qJmAbFKAlXfrJ/" target="_blank">Uniforms: #PittRetro</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Donate</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+            <li><a href="http://bit.ly/2l8GlS0" target="_blank">Donate Today</a></li>
+            <li><a href="http://www.questforten.com/" target="_blank">Football Championship Fund</a></li>
+            <li><a href="/panther-club/home.html">Panther Club</a></li>
+            <li><a href="/varsity-letter-club/home.html">Varsity Letter Club</a></li>
+           	<li><a href="/panther-club/wheels.html">Wheels of Support</a></li>           
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#">Recruits</a>
+      <div class="rnav-panel full">
+        <div class="rnav-container">
+          <ul class="rnav-column sports">
+          	
+          	<li><a href="/camps/pitt-camps.html">Camps and Clinics</a></li>
+          	<li><a href="http://www.tour.pitt.edu/tour-categories/main-tour" target="_blank">Campus Tour</a></li>
+          	<li><a href="/ot/panther-game-plan.html">Cathy and John Pelusi Family Life Skills Program </a></li>
+            <li><a href="/facilities/pitt-facilities.html">Facilities</a></li>
+            <li><a href="http://www.tour.pitt.edu/campus-map" target="_blank">Interactive Campus Map</a></li>
+            <li><a href="http://www.pitt.edu/student-life" target="_blank">Student Life</a></li>
+            <li><a href="http://www.pitt.edu/academics/undergraduate" target="_blank">Undergraduate Programs</a></li>
+            <li><a href="http://www.pitt.edu/" target="_blank">University of Pittsburgh</a></li>
+            <li><a href="/ot/recruit-questionnaires.html">Questionnaires</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#" class="no-arrow"><span class="hide-phone hide-tablet "><i class="fa fa-th"></i></span><span class="hide-desktop">Social</span></a>
+      <div class="rnav-panel full">
+        <div class="rnav-container align-right" id="social-icons">
+          <div>
+            <a href="https://twitter.com/Pitt_ATHLETICS" target="_blank">Twitter <i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/PittsburghPanthers" target="_blank">Facebook <i class="fa fa-facebook"></i></a>
+
+          </div>
+          <div>
+            <a href="https://instagram.com/Pitt_ATHLETICS" target="_blank">Instagram <i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/PittLiveWire" target="_blank">YouTube<i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <a href="#" class="no-arrow"><span class="hide-phone hide-tablet "><i class="fa fa-search"></i></span><span class="hide-desktop">Search</span></i></a>
+      <div class="rnav-panel full">
+        <div class="rnav-container align-right" id="search">
+          <form class="search-form"  action="/search/pitt-search.html" id="cse-search-box" target="_parent">
+            <input type="hidden" name="cx" value="013013334115952783228:ccuxwidh2ka" />
+            <input type="hidden" name="cof" value="FORID:11" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="hidden" name="client" value="cbs-collegesports" />
+            <input type="hidden" name="channel" value="pittsburghpanthers-search" />
+            <input class="input-field" onblur="this.placeholder = 'Search'" onfocus="this.placeholder = ''" type="text" name="q"  onfocus="this.placeholder = ''" />
+            <button class="search-button" type="submit" name="sa">Search</button>
+          </form>
+          <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script>
+$(function() {
+   $("#main-nav").responsiveNavigation({
+    mobileAt: 1024,
+    clickOnly: true
+  });
+})
+</script>
+</div>
+<div id="top"></div>
+<div id="page-bg"></div>
+
+<div id="page">
+
+  <div class="clear section" id="large-header">
+    <div class="container center">
+      <h1>Events</h1>
+    </div>
+  </div>
+
+
+  <div class="light section events" id="main-content-wrap">
+    <div class="container">
+      <div id="main-content">
+	<script type="text/javascript" src="/library/scripts/story-nav-prefs.js"></script>
+<script type="text/javascript" src="http://grfx.cstv.com/story-nav/story-nav.js"></script>
+<link href="http://grfx.cstv.com/story-nav/css/story-nav.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://grfx.cstv.com/scripts/fontSizeCookie.js"></script>
+<script>
+    var min=11;
+    var max=18;
+    var element_ID_adjusted = "Content";
+    var fontSizeCookieName = "pitt-fontSize";
+    checkFontSizeCookie();
+</script>
+
+<div id="storyNavBar">
+
+    <div id="sharebar-wrapper">
+        <script type="text/javascript">
+            window.CBSiApp.shareBar.init('sharebar-wrapper');
+        </script>
+    </div>
+
+    <div id="right-side">
+        <ul id="articleOptions">
+            <li>
+                <a href="javascript:window.open('http://www.cstv.com/printable/schools/pitt/calendar/events/2016_201705.html','Printable','toolbar=no,location=no,resizable=no,scrollbars=yes,width=610,height=450'); void('');">
+                <img src="http://grfx.cstv.com/story-nav/icon-print2.png" alt="print" /> <span class="share-lg">Print</span></a>
+            </li>
+            <li>
+                <a href="/email2friend/pitt-email2friend.html?URL=/calendar/events/2016_201705.html">
+                <img src="http://grfx.cstv.com/story-nav/icon-mail2.png" alt="email" /> <span class="share-lg">Email</span></a>
+            </li>
+            <li>
+                <div class="plus-minus">
+                    <a onclick="javascript:increaseFontSize();" href="javascript://"><img src="http://grfx.cstv.com/story-nav/icon-plus3.png" alt="Increase Font Size" /></a>
+                    <a onclick="javascript:decreaseFontSize();" href="javascript://"><img src="http://grfx.cstv.com/story-nav/icon-minus3.png" alt="Decrease Font Size" /></a>
+                    <span class="share-lg">Text</span>
+                </div>
+            </li>
+        </ul>
+    </div><!-- #right-side -->
+</div><!-- #storyNav -->
+
+
+<style>
+body{
+     font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.LiveEvent {font-size:10px;font-family:'Open Sans', arial, helvetica, sans-serif !important; font-weight:bold;}
+
+.calcontent {
+    margin: 3px;
+    padding: 3px;
+    font-size: 9px;
+    line-height: 14px;
+}
+
+#full-calendar {
+    border-collapse: collapse;
+}
+
+#calendar-header {
+  	border: 1px solid #CDB97D;
+	color:#fff;
+	    
+}
+
+
+#calendar-header tr {background: #CDB97D;}
+
+.caltoprow {color:#fff}
+
+td.calday {
+   border: 1px solid #CDB97D;
+  padding: 3px;
+  }
+
+.calopplogo {
+    width: 25px;
+    float: right;
+}
+</style>
+<div id="html-calendar">
+
+
+<div align="center">
+	<a href="http://www.pittsburghpanthers.com/calendar/upcoming-events.html"><strong>Broadcast Schedule</strong></a> | <a href="/calendar/upcoming-events.html"><strong>Upcoming Events</strong></a><br>
+<strong>Download Schedules to Your Calendar: </strong><a href='https://spoton.it/schedules/pitt' class='spoton-it'>Add to calendar</a>
+</div>
+
+<p>
+
+
+<TABLE border="0" cellpadding="0" cellspacing="0" width="100%">
+<TR>
+<TD align=center>
+<B>
+	<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201608.html">August 2016</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201609.html">September 2016</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201610.html">October 2016</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201611.html">November 2016</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201612.html">December 2016</a><br>
+<IMG src="http://grfx.cstv.com/graphics/spacer.gif" height="4" width="1" border="0"><br>
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201701.html">January 2017</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201702.html">February 2017</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201703.html">March 2017</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201704.html">April 2017</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201705.html">May 2017</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://onlyfans.cstv.com/schools/pitt/calendar/events/2016_201706.html">June 2017</a>
+
+</b>
+</td>
+</tr>
+</table>
+
+<TABLE border="0" cellpadding="0" cellspacing="0" width="100%">
+<TR>
+<TD align="center">
+
+<IMG src="http://graphics.fansonly.com/schools/pitt/graphics/spacer.gif" height="18" width="1" border="0"><BR>
+<h3>May 2017</h3><br>
+<img src="http://graphics.fansonly.com/schools/pitt/graphics/spacer.gif" height="8" width="1" border="0"></TD>
+
+</TR>
+</table>
+
+<table id="full-calendar" width="100%">
+	<tr id="calendar-header" class="caltoprow">
+		<td align="center"><span class="daytitle"><b>Sunday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Monday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Tuesday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Wednesday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Thursday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Friday</b></span></td>
+		<td align="center"><span class="daytitle"><b>Saturday</b></span></td>
+	</tr>
+	
+<tr valign="top">
+<td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">01</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">02</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Maryland Eastern Shore <img src="http://grfx.cstv.com/graphics/school-logos/mdes-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">03</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Maryland Eastern Shore <img src="http://grfx.cstv.com/graphics/school-logos/mdes-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>1:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">04</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">05</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">06</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Atlanta, Ga.
+			<br>ACCN Extra
+	</div>
+	
+
+	<div class="calcontent">
+			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>7:00 PM
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+</td>
+</tr>
+
+<tr valign="top">
+<td class="calday">
+	<span class="daynumber">07</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>1:00 PM
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Atlanta, Ga.
+			<br>ROOT SPORTS
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">08</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>7:00 PM
+			<br>Atlanta, Ga.
+			<br>ESPN U
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">09</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">10</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Youngstown State <img src="http://grfx.cstv.com/graphics/school-logos/youn-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">11</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
+			<br>ACC Softball Tournament <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>TBA
+			<br>Chapel Hill, N.C.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">12</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">13</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+</td>
+</tr>
+
+<tr valign="top">
+<td class="calday">
+	<span class="daynumber">14</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>1:00 PM
+			<br>Charles L. Cost Field
+			<br>ACCN Extra
+	</div>
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Atlanta, Ga.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">15</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">16</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>West Virginia <img src="http://grfx.cstv.com/graphics/school-logos/wvir-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:30 PM
+			<br>Morgantown, W.Va.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">17</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">18</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Winston-Salem, N.C.
+			<br>ACCN Extra
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">19</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>6:00 PM
+			<br>Winston-Salem, N.C.
+			<br>ACCN Extra
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">20</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
+			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>1:00 PM
+			<br>Winston-Salem, N.C.
+			<br>ACCN Extra
+	</div>
+	
+</td>
+</tr>
+
+<tr valign="top">
+<td class="calday">
+	<span class="daynumber">21</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">22</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">23</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">24</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">25</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Lexington, Ky.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">26</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Lexington, Ky.
+			
+	</div>
+	
+</td><td class="calday">
+	<span class="daynumber">27</span> <br />
+
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Lexington, Ky.
+			
+	</div>
+	
+</td>
+</tr>
+
+<tr valign="top">
+<td class="calday">
+	<span class="daynumber">28</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">29</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">30</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">31</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td>
+    </tr>
+</table>
+
+
+</div><!-- an error occurred while processing this directive -->
+
+
+
+<script language="javascript">
+<!--
+function fanslauncher(url) {
+   window.open(url,'gametracker','toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,scrollbars=no,width=640,height=540');
+}
+//-->
+
+  (function () {
+    var so = document.createElement('script'); so.async = true;
+    so.src = 'https://dff2h0hbfv6w4.cloudfront.net/scripts/loader.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+  })();
+
+  $(function() {
+  $("#full-calendar td.calday").each(function() {
+    var containsContent = $(this).find('.calcontent');
+    if (!containsContent.length) {
+      $(this).addClass('calendar-no-content');
+    }
+  });
+});
+</script>
+
+
+	
+
+
+      </div><!-- /main-content -->
+
+
+      <div id="side-content">
+
+  <div class="module">
+    <div id="ad-rail">
+      <div class="site-ad">
+        <div id="div-gpt-8181300">
+  <script type='text/javascript'>
+       googletag.cmd.push(function(){
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[300,250],[300,600]], 'div-gpt-8181300') 
+      .addService(googletag.pubads())
+      .setTargeting("pos", isViewable('div-gpt-8181300', 250, 0.5))
+      .setTargeting("pos2", "rail")
+      .setTargeting("session", MadisonSessionCode)
+      .setTargeting("firstpage", adFirstpage)
+      .setTargeting("dcopt", "ist")
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("sect", "");
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+      googletag.display('div-gpt-8181300');
+  });
+  </script>
+</div>
+
+       </div>
+    </div>
+  </div>
+
+
+  <div class="module">
+      <ul id="top15-headlines">
+  
+  <li class="top15-headlines-wrap m-wrestl">
+      <a class="top15 m-wrestl" data-sport="m-wrestl" href="/sports/m-wrestl/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-wrestl.png" alt="" /></div>
+          <div class="date">3/15/2017</div>
+          <h3>Four Panthers Set for NCAA Championships</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap m-basebl">
+      <a class="top15 m-basebl" data-sport="m-basebl" href="/sports/m-basebl/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-basebl.png" alt="" /></div>
+          <div class="date">3/15/2017</div>
+          <h3>Skip Talk: Panthers Open Home Season </h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap m-footbl">
+      <a class="top15 m-footbl" data-sport="m-footbl" href="/sports/m-footbl/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-footbl.png" alt="" /></div>
+          <div class="date">3/15/2017</div>
+          <h3>Pitt Football Set for Beginning of 2017 Spring Practices</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap c-swim">
+      <a class="top15 c-swim" data-sport="c-swim" href="/sports/c-swim/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-c-swim.png" alt="" /></div>
+          <div class="date">3/15/2017</div>
+          <h3>Quartet of Panthers Embark on NCAA Championships Dream</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap m-baskbl">
+      <a class="top15 m-baskbl" data-sport="m-baskbl" href="/sports/m-baskbl/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-baskbl.png" alt="" /></div>
+          <div class="date">3/15/2017</div>
+          <h3>2017 Kevin Stallings Pitt Panthers Camp Dates Announced</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap w-softbl">
+      <a class="top15 w-softbl" data-sport="w-softbl" href="/sports/w-softbl/spec-rel/031517aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-w-softbl.png" alt="" /></div>
+          <div class="date">03/15/2017</div>
+          <h3>Pitt Softball Game Promotions Announced</h3>
+      </a>
+  </li>
+  
+</ul>
+
+  </div>
+
+
+</div>
+
+
+    </div>
+  </div>
+
+
+
+  <script>
+
+  if ($("#main-content .StoryHeadline").length) {
+    $("#large-header .container").append('<h1>' + $(".StoryHeadline").html() + '</h1>');
+    $(".StoryHeadline").remove();
+  }
+  if ($("#main-content .StoryTeaser").length) {
+    $("#large-header .container").append('<h2>' + $(".StoryTeaser").html() + '</h2>');
+    $(".StoryTeaser").remove();
+  }
+  if ($("#main-content #biotable-wrapper").length) {
+    $("#large-header h1").remove();
+    $("#large-header h2").remove();
+    $("#large-header .container").append($("#biotable-wrapper"));
+    $("#main-content biotable-wrapper").remove();
+  }
+  </script>
+ <style>
+  .story-superleader-section {padding:20px 0!important;}
+</style>
+
+<div class="light section story-superleader-section">
+  <div class="container">
+  <div id="div-gpt-3960639">
+  <script type='text/javascript'>
+      
+if(typeof(gptMap_superleader) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
+var gptMap_superleader = googletag.sizeMapping().
+addSize([1024,90],[[970,66],[970,90]]).
+addSize([768,90],[728,90]).
+addSize([300,50],[320,50]).
+build();
+}
+else if(typeof(gptMap_superleader) == 'undefined'){ // NON-RESPONSIVE MAINTAIN FULL SIZE ONLY
+var gptMap_superleader = googletag.sizeMapping().
+addSize([100,50],[[970,66],[970,90]]).
+build();
+}
+ googletag.cmd.push(function(){
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', superleader_size, 'div-gpt-3960639') 
+      .defineSizeMapping(gptMap_superleader)
+      .addService(googletag.pubads())
+      .setTargeting("pos", "bottom")
+      .setTargeting("pos2", "superleader")
+      .setTargeting("session", MadisonSessionCode)
+      .setTargeting("firstpage", adFirstpage)
+      .setTargeting("dcopt", "ist")
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("sect", "");
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+      googletag.display('div-gpt-3960639');
+  });
+  </script>
+</div>
+
+  </div>
+</div>
+<div class="opaque section social-section" id="social">
+ <style>
+.social-circle {
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-size: 38px;
+  width: 80px;
+  margin-left: 120px;
+  border-radius: 220px;
+}
+.social-circle i {
+  padding:20px;
+}
+
+.social-section h3 {
+  font-family:"Montserrat",sans-serif;
+  font-weight:500;
+  font-size:18px;
+  color:#CDB97D;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+
+.twttr-widget-wrap .twttr-element {font-family: "Montserrat",sans-serif;}
+.twttr-widget-wrap .twttr-avatar, .twttr-widget-wrap .twttr-user {display:none;}
+.twttr-widget-wrap .twttr-text {font-family: "Montserrat",sans-serif; font-size:14px; color:#fff;}
+.twttr-widget-wrap .twttr-text a {color:#fff;}
+.twttr-widget-wrap .twttr-element a {color:rgb(205, 185, 125); font-size:13px;}
+.twttr-widget-wrap .twttr-window {border: 0 solid #000; background:none;}
+.twttr-widget-wrap .twttr-extras a:after {content: "\2022"; color:rgb(205, 185, 125);}
+.twttr-widget-wrap .twttr-extras a:last-of-type:after {content: "";}
+
+@media (max-width: 1024px) {
+  .col-third {
+    width:50%;
+    float:left;
+    margin:0;
+  }
+  .social-circle {margin-left:135px;}
+  .col-third:first-of-type {
+    width:100%;
+    float:none;
+  }
+  .col-third:first-of-type .social-circle {
+    margin-left:325px;
+  }
+  .twttr-widget-wrap, .twttr-widget-wrap .twttr-window {width:100%;}
+  .twttr-widget-wrap .twttr-text {text-align:center;}
+}
+@media (max-width: 767px) {
+  .col-third:first-of-type .social-circle, .social-circle {margin-left:190px;}
+  .col-third {
+    width:100%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 479px) {
+  .col-third:first-of-type .social-circle, .social-circle {margin-left:110px;}
+  .col-third {
+    width:100%;
+  }
+}
+
+
+
+#instagramWrap .grid a {width:30%; margin: 0 1px;}
+</style>
+  <h2 class="header inverted">Get Social<div class="arrow"></div></h2>
+  <div class="container">
+    <div class="col-third center">
+      <a href="https://twitter.com/Pitt_ATHLETICS" target="_blank"><div class="social-circle">
+        <i class="fa fa-twitter"></i>
+      </div>
+      <h3>Twitter</h3></a>
+
+      <!-- BEGIN TWITTER -->
+      <div class="twttr-widget-wrap">
+          <div id="twitterFeed1-window" class="twttr-window">
+          <ul id="twitterFeed1">
+             <!-- Begin Default Message -->
+             <li id="twitterFeed1-error" class="twttr-error">
+             <div class="twttr-element">
+             <div class="twttr-user"><a href="https://twitter.com/" target="_blank"></a></div>
+             <div class="twttr-text">Loading Tweets...</div><div class="twttr-time">1 second ago</div>
+             </div>
+             </li>
+             <!-- End Default Message -->
+          </ul>
+          </div>
+      </div>
+
+      <script type="text/javascript">
+        var widgetTwitter1 = new csuiTwitter();
+        widgetTwitter1.init({
+            div: 'twitterFeed1',
+            jsonURL: 'http://grfx.cstv.com/schools/pitt/data/json/twitter/pitt_index.json',
+            callback: 'twitter_pitt_index',
+            showAvatar: true,
+            showHandle: true,
+            showReply: true,
+            showRT: true,
+            showFav: true,
+            showFullImages: true,
+            whenComplete: function() {}
+        });
+      </script>
+      <!-- END TWITTER -->
+
+    </div>
+    <div class="col-third center">
+      <a href="https://instagram.com/Pitt_ATHLETICS" target="_blank">
+      <div class="social-circle">
+        <i class="fa fa-instagram"></i>
+      </div>
+      <h3>Instagram</h3></a>
+
+      <div id="instagramWrap" class="widget-wrap">
+        <div id="instagram" class="widget">
+          <div id="instagram-inner" class="widget-inner">
+            <div id="widget-instagram" class="grid">
+              <div id="widget-instagram-1" class="widget" data-cycle-pager="widget-instagram-1-c"  data-toggle="modal-gallery" data-throttle-speed=true data-cycle-carousel-fluid=true data-target="#modal-gallery">
+              </div>
+              <div id="widget-instagram-1-c" class="widget mini external"  data-cycle-fx="carousel" data-cycle-carousel-visible=9 data-cycle-carousel-fluid=false data-allow-wrap="false">
+              </div>
+            </div>
+
+            <div id="insta-modal-gallery" class="modal modal-gallery hide" tabindex="-1">
+              <div class="modal-header">
+                <a class="close" data-dismiss="modal">&times;</a>
+                <span class="modal-title">&nbsp;</span>
+              </div>
+              <div class="modal-body">
+                <div class="modal-image">
+                </div>
+              </div>
+              <div class="modal-footer">
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+<script>
+var getInstaFeed = function() {
+
+  var userID = 314839753;
+  var target = 'widget-instagram-1';
+  var thumbTarget = 'widget-instagram-1-c';
+  var resolution = 'standard_resolution'; //'hi_resolution';
+
+  var after =  function(){
+  };
+
+  var template = '<a class="tab-insta" data-gallery="gallery" href="{{image_large}}" target="_blank" title="{{caption}}&nbsp;" data-footer="{{likes}} likes"><img title="{{caption}}&nbsp;" src="{{image}}"/></a>';
+
+  $('#' + target).cycle('destroy').html('Loading Instagram Feed...');
+  $('#' + thumbTarget).cycle('destroy').html('');
+
+  var feed = new Instafeed({
+    get: 'user',
+    userId: userID,
+    accessToken: '314839753.1677ed0.80b47ca2da014e82bd5784d5857fcc04',
+    target: target,
+    resolution: resolution,
+    template: template,
+    limit: 9,
+    jsonURL: 'http://grfx.cstv.com/schools/pitt/data/json/instagram/index.json',     
+    after: after
+  }).run();
+
+  $(function(){
+    $("#insta-modal-gallery").appendTo( $("body") );
+  });
+
+};
+
+getInstaFeed();
+
+
+$(function(){
+
+  $('body').on('click', '.tab-insta', function(e){
+    e.preventDefault();
+    var index = $( '.tab-insta' ).index( this );
+    var modalSrc = $('#widget-instagram a').map(function() {
+      return $(this).html().replace(/_s.jpg">/g, "_n.jpg\"></li>").replace(/<img/g, "<li><img");
+    }).get().join("");
+
+   var picHeight = (window.innerHeight - 640) * .3;
+
+    var modString = ['<div class="modal-inner" style="margin-top:',
+    'px"><ul class="bx-insta">',
+    '</ul><div id="close-insta"><i class="fa fa-times"></i> CLOSE</div></div>'];
+
+    $('#insta-modal-gallery').html(modString[0]+picHeight+modString[1]+modalSrc+modString[2]).fadeIn().removeClass('hide');
+
+    var slider = $('.bx-insta').bxSlider({
+      mode: 'fade',
+      nextText: '&#187;',
+      prevText: '&#171;',
+      captions: true,
+      responsive: true
+    });
+
+    slider.goToSlide(index);
+
+    setTimeout(function(){
+      $('.bx-pager-link').html('');
+    }, 100);
+
+  });
+
+  $('body').on('click', '#close-insta', function(){
+    $('#insta-modal-gallery').fadeOut().addClass('hide');
+    slider = $('.bx-insta').bxSlider();
+    slider.destroySlider();
+    $('#insta-modal-gallery').html('');
+  });
+
+});
+</script>
+
+
+
+
+    </div>
+    <div class="col-third center last">
+      <a href="https://www.facebook.com/PittsburghPanthers" target="_blank"><div class="social-circle">
+        <i class="fa fa-facebook"></i>
+      </div>
+      <h3>Facebook</h3></a>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPittsburghPanthers%2F&tabs=timeline&width=298&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="298" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+  </div>
+
+</div>
+ <style>
+#footer-logos  > div {
+    height: 100px;
+    width: 25%;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+    float:left;
+}
+#footer-logos {
+  text-align: center;
+  padding: 15px 15px 0;
+  width: 100%;
+  clear:both;
+}
+
+@media (max-width: 767px) {
+  #footer-logos > div {
+    float:left;
+    display:inline-block;
+    width:50%;
+  }
+
+}
+
+@media (max-width: 479px) {
+  #footer-logos > div {
+    float:left;
+    display:inline;
+    width:100%;
+    height: 75px;
+  }
+
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#footer-logos img {
+    vertical-align: middle;
+}
+ span.athleticmark {
+  font:  400 16px/18px "Oswald", sans-serif;
+  color:#CDB97D  ;
+  text-align:center;
+  display:block;
+  margin:20px auto;
+}
+@media (max-width: 1023px) {
+  span.athleticmark {
+    font: 400 14px/18px "Oswald", sans-serif;
+  }
+}
+@media (max-width: 767px) {
+  span.athleticmark {
+    font: 400 16px/18px "Oswald", sans-serif;
+  }
+
+}
+
+#footer-wrap-temp {
+  clear:both;
+}
+</style>
+
+  <div class="dark section">
+    <div class="container">
+      <div id="arrow-up"><a href="#top"><img src="http://graphics.collegesports.com/testing/pitt-15/images/index-v2-1024-arrow-up.png"></a></div>
+    </div>
+  </div><!-- /end dark section -->
+
+<div id="footer">
+  <div class="container">
+    <span class="athleticmark">Official Athletic Site of the University of Pittsburgh</span>
+<div id="footer-logos">
+
+
+	<div>
+    <span class="helper"></span>
+    <a href="http://www.pitt.edu/" target="_blank">
+      <img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-footer-assoc-edu.png" alt="EDU" />
+    </a>
+  </div>
+	<div>
+    <span class="helper"></span>
+    <a href="http://www.ncaa.com/" target="_blank">
+      <img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-footer-assoc-ncaa.png" alt="NCAA" />
+    </a>
+  </div>
+	<div>
+    <span class="helper"></span>
+    <a href="http://www.theacc.com/" target="_blank">
+      <img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-footer-assoc-acc.png" alt="ACC" />
+    </a>
+  </div>
+	<div>
+    <span class="helper"></span>
+    <a href="http://www.imgcollege.com/" target="_blank">
+      <img src="http://grfx.cstv.com/graphics/img-ffffff.png" alt="IMG" />
+    </a>
+  </div>
+  <div style="clear:both; height:0px;">&nbsp;</div>
+</div>
+     
+	<style>
+	#logo-wrap{
+	float:left;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-black-logo.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-black-logo.png");
+	width:50%;
+	display:block;
+	height:50px;
+	display:block
+	}
+	#logo-wrap img{
+    float:left;
+    width:290px;
+    height:50px;
+    position:relative;
+    z-index:10;
+    }
+	#dots{
+	clear:both;
+	background: url("http://grfx.cstv.com/graphics/new-footer-06-black-dots.png") no-repeat;
+			*background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grfx.cstv.com/graphics/new-footer-06-black-dots.png", sizingMethod='scale');
+	height:6px;
+	display:block;
+			background-position: center;
+	}
+	</style>
+	<link href="http://grfx.cstv.com/schools/pitt/library/pitt-07-footer.css" rel="stylesheet" type="text/css" />
+	<div id="footer-wrap-temp">
+	<div id="logo-wrap"><a href="http://www.cbsiam.com/" target="_blank"><img src="http://grfx.cstv.com/graphics/spacer.gif" width="290" height="50" alt="CBSi Advanced Media" border="0"/></a></div>
+	
+			<div id="dropdown-wrap">
+
+				<form>
+					<script language="javascript">
+						document.write("<div><label for=\"cbsi_footer_menu\">Visit other CBS Interactive Sites</label><br><select name=\"cbsi_footer_menu\" id=\"cbsi_footer_menu\" class=\"rb_visit_sel\"> <option value=\"http://www.cbscares.com\">CBS Cares</option><option value=\"http://www.cbsfilms.com\">CBS Films</option><option value=\"http://www.cbsradio.com\">CBS Radio</option><option value=\"http://www.cbs.com\">CBS.com</option><option value=\"http://www.cbsiam.com\">CBSI Advanced Media</option><option value=\"http://cbsinteractive.com\">CBSInteractive</option><option value=\"http://www.cbsnews.com\">CBSNews.com</option><option value=\"http://www.CBSSports.com\">CBSSports.com</option><option value=\"http://www.chow.com\">CHOW</option><option value=\"http://www.cnet.com\">CNET</option><option value=\"http://www.gamespot.com\">GameSpot</option><option value=\"http://www.last.fm\">Last.fm</option><option value=\"http://www.maxpreps.com\">MaxPreps</option><option value=\"http://www.metacritic.com\">Metacritic.com</option><option value=\"http://www.cbsnews.com/moneywatch/\">Moneywatch</option><option value=\"http://www.mysimon.com\">mySimon</option><option value=\"http://www.radio.com\">Radio.com</option><option value=\"http://www.search.com\">Search.com</option><option value=\"http://www.sho.com\">Showtime</option><option value=\"http://www.smartplanet.com\">SmartPlanet</option><option value=\"http://www.techrepublic.com\">TechRepublic</option><option value=\"http://www.tv.com\">TV.com</option><option value=\"http://www.urbanbaby.com\">UrbanBaby.com</option><option value=\"http://www.zdnet.com\">ZDNet</option></select> <input type=\"button\" value=\"Go\" onClick=\"window.location=document.getElementById('cbsi_footer_menu').options[document.getElementById('cbsi_footer_menu').selectedIndex].value;\" class=\"rb_visit_go\" /></div>");
+					</script>
+				</form>
+				<noscript>
+					<div> <a href="http://www.cbscares.com">CBS Cares</a>  |  
+<a href="http://www.cbsfilms.com">CBS Films</a>  |  
+<a href="http://www.cbsradio.com">CBS Radio</a>  |  
+<a href="http://www.cbs.com">CBS.com</a>  |  
+<a href="http://www.cbsiam.com">CBSI Advanced Media</a>  |  
+<a href="http://cbsinteractive.com">CBSInteractive</a>  |  
+<a href="http://www.cbsnews.com">CBSNews.com</a>  |  
+<a href="http://www.CBSSports.com">CBSSports.com</a>  |  
+<a href="http://www.chow.com">CHOW</a>  |  
+<a href="http://www.cnet.com">CNET</a>  |  
+<a href="http://www.gamespot.com">GameSpot</a>  |  
+<a href="http://www.last.fm">Last.fm</a>  |  
+<a href="http://www.maxpreps.com">MaxPreps</a>  |  
+<a href="http://www.metacritic.com">Metacritic.com</a>  |  
+<a href="http://www.cbsnews.com/moneywatch/">Moneywatch</a>  |  
+<a href="http://www.mysimon.com">mySimon</a>  |  
+<a href="http://www.radio.com">Radio.com</a>  |  
+<a href="http://www.search.com">Search.com</a>  |  
+<a href="http://www.sho.com">Showtime</a>  |  
+<a href="http://www.smartplanet.com">SmartPlanet</a>  |  
+<a href="http://www.techrepublic.com">TechRepublic</a>  |  
+<a href="http://www.tv.com">TV.com</a>  |  
+<a href="http://www.urbanbaby.com">UrbanBaby.com</a>  |  
+<a href="http://www.zdnet.com">ZDNet</a>  |  
+ </div>
+				</noscript>
+			</div>
+		
+	<div id="dots"></div>
+	<div id="footer-links">Certain Elements &copy; 2017 CBS Interactive. Certain Elements &copy; 2017 University of Pittsburgh. All rights reserved. The University of Pittsburgh is the owner of all University logos, tradenames, service marks, registered trademarks and indicia. | <a href='http://legalterms.cbsinteractive.com/privacy' target="_blank">Privacy Policy</a> | <a href='http://legalterms.cbsinteractive.com/adchoice' target="_blank">Ad Choice</a> | <a href='http://legalterms.cbsinteractive.com/terms-of-use' target="_blank">Terms of Use</a> | <a href='http://collegenetwork.cbssports.com/'>About Us</a> | <a href='http://www.cbsinteractive.com/advertise/'>Advertise</a> | <a href=http://www.pittsburghpanthers.com/feedback/pitt-feedback.html class="csdisclaimerlink">Feedback</a> | <a href='http://www.cbsinteractive.com/careers/'>Careers</a>
+	
+
+	</div>
+	</div>
+	<style>
+#store-footer-links {
+    padding:10px 0;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+#store-footer-links a:link, #store-footer-links a:visited {
+    padding:0 5px;
+    color:#888;
+    font-size:10px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    text-decoration:none;
+}
+#store-footer-links a:hover {
+    text-decoration:underline;
+}
+</style>
+<div id="store-footer-links">
+    <a href="http://pittsburghpanters-publications.cbscollegestore.com/" target="_blank">Pittsburgh Publications Online Store</a> 
+
+    
+</div>
+
+
+
+
+     <!-- BEGIN SNIPPET -->
+ <style>
+  /*.YAD-4b0c4b36-136a-36af-90c8-9454a7af5b2a {width:1000px;}
+	@media (max-width: 1279px) {
+	.YAD-4b0c4b36-136a-36af-90c8-9454a7af5b2a {max-width:100%;}
+	}
+  @media (max-width: 767px) {
+    .YAD-4b0c4b36-136a-36af-90c8-9454a7af5b2a {width:740px;}
+  }
+  @media (max-width: 479px) {
+  .YAD-4b0c4b36-136a-36af-90c8-9454a7af5b2a {width:300px;}
+  }*/
+ </style>
+
+<!--<div class="YAD-4b0c4b36-136a-36af-90c8-9454a7af5b2a" style="margin:0px auto"></div>-->
+<script>
+//(function(a,b,c,d,e,f){a[d]||(a[d]=
+//	function(){
+//		(a[d].q=a[d].q||[]).push([arguments,+new Date])
+//	});
+//	e=b.createElement(c);f=b.getElementsByTagName(c)[0];
+//	e.src='https://s.yimg.com/uq/syndication/yad.js';e.async=true;
+//	f.parentNode.insertBefore(e,f)
+//	} (window,document,'script','yad')
+//);
+//	yad('4b0c4b36-136a-36af-90c8-9454a7af5b2a', {
+//		header_color: '#fff', //header text
+//		title_color: '#cdb97d', //link Colors
+//		title_hover_color: '#cdb97a',
+//		widget_background_color: '',
+//		header_background_color: '#1a1a1a' //header background
+ //   });
+</script>
+<!-- END SNIPPET -->
+
+
+  </div>
+</div>
+
+
+<div id="sticky-footer">
+  <div class="site-ad">
+    <div id="div-gpt-3373970">
+  <script type='text/javascript'>
+      
+if(typeof(gptMap_sticky970x66) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
+var gptMap_sticky970x66 = googletag.sizeMapping().
+addSize([1024,90],[[970,66],[970,90]]).
+addSize([768,90],[728,90]).
+addSize([300,50],[320,50]).
+build();
+}
+else if(typeof(gptMap_sticky970x66) == 'undefined'){ // NON-RESPONSIVE MAINTAIN FULL SIZE ONLY
+var gptMap_sticky970x66 = googletag.sizeMapping().
+addSize([100,50],[[970,66],[970,90]]).
+build();
+}
+ googletag.cmd.push(function(){
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[970,66],[970,90],[728,90],[320,50]], 'div-gpt-3373970') 
+      .defineSizeMapping(gptMap_sticky970x66)
+      .addService(googletag.pubads())
+      .setTargeting("pos", "top")
+      .setTargeting("pos2", "sticky970x66")
+      .setTargeting("session", MadisonSessionCode)
+      .setTargeting("firstpage", adFirstpage)
+      .setTargeting("dcopt", "ist")
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("sect", "");
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+      googletag.display('div-gpt-3373970');
+  });
+  </script>
+</div>
+
+  </div>
+</div>
+
+<script>
+window._rsTC = 200;
+</script>
+<script>
+$(document).ready(function() {
+  if (document.location.hash.length > 0){
+
+    name_of_jumplink = document.location.hash.substring(1,document.location.hash.length);
+    var aTag = $("a[name="+ name_of_jumplink  +"]");
+    $('html,body').animate({scrollTop: aTag.offset().top-200},'fast');
+  }
+});
+
+$("a[href^=#coaches]").on('click', function comeJumptoEm(e){
+  e.preventDefault();
+  var dest = $(this).attr('href').substring(1,$(this).attr('href').length);
+  $('html,body').animate({ scrollTop: $("a[name="+ dest +"]").offset().top-200 }, 'fast');
+});
+
+</script>
+
+
+</div><!-- /page -->
+
+
+<!-- OutOfPage Ad - aka Intromercial -->
+<div id="div-gpt-160552">
+  <script type='text/javascript'>
+    googletag.cmd.push(function(){
+      googletag.defineOutOfPageSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', 'div-gpt-160552')
+      .addService(googletag.pubads())
+      .setTargeting("pos2", "popup")
+      .setTargeting("session", MadisonSessionCode)
+      .setTargeting("firstpage", adFirstpage)
+      .setTargeting("dcopt", "ist")
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html")) 
+      .setTargeting("sect", "");
+      googletag.pubads().enableSyncRendering();
+      googletag.enableServices();
+      googletag.display('div-gpt-160552');
+  });
+  </script>
+</div>
+
+
+ 
+<!--TRACKING_START-->
+<script type="text/javascript" src="//grfx.cstv.com/scripts/guid-1.0.js"></script>
+<script type="text/javascript">
+var utag_data;
+function get_page_title() {
+    if (document.querySelector(".StoryHeadline") !== null && document.querySelector(".StoryHeadline").innerHTML.length > 0) {
+        return document.querySelector(".StoryHeadline").innerHTML;
+    }
+
+    var metas = document.getElementsByTagName('meta');
+    for (i=0; i<metas.length; i++) {
+        if (metas[i].getAttribute("property") == "og:title") {
+            return metas[i].getAttribute("content");
+        }
+    }
+
+    return document.title || '';
+}
+ 
+utag_data = {
+    siteId: '225',
+    c2: '3000082',
+    pageViewGuid: v1(),
+    articleId: '2016_201705',
+    articlePubDate: '',
+    articleTitle: get_page_title(),
+    articleType: '',
+    pageType: 'nonsport',
+    schoolId: 'pitt',
+    schoolName: 'Pittsburgh',
+    searchTerm: '',
+    siteHier: 'calendar|events',
+    siteRsid: 'cbsicbscnsite-pitt',
+    siteSection: 'calendar',
+    siteType: 'desktop web',
+    sportName: '',
+};
+(function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/cbsi/cbscnsite/prod/utag.js';
+   b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+   a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+ 
+</script>
+
+<style type="text/css">
+#inseguitore{position:absolute;left:0;top:0;}
+</style>
+<div id="inseguitore">
+<!-- START Nielsen//NetRatings SiteCensus V5.3 -->
+<!-- COPYRIGHT 2007 Nielsen//NetRatings -->
+<script type="text/javascript">
+var _rsCI="us-cstv";
+var _rsCG="school";
+var _rsDN="//secure-us.imrworldwide.com/";
+var _rsPLfl=0;
+var _rsCL=1;
+</script>
+<script type="text/javascript" src="//secure-us.imrworldwide.com/v53.js"></script>
+<noscript>
+<div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-cstv&amp;cg=school&cc=1" alt=""/></div>
+</noscript>
+<!-- END Nielsen//NetRatings SiteCensus V5.3 --> 
+</div>
+
+<!-- CNET tag for reporting OAS traffic -->
+<script type="text/javascript" src="http://dw.cbsimg.net/js/cbsi/dw.js"></script>
+<script type="text/javascript">
+  DW.pageParams = {
+    siteId: '225'
+  };
+  DW.tagNielsen = false;
+  DW.clear();
+</script>
+<noscript>
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1489635871&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+</noscript>
+
+<!-- Comscore tag -->
+<noscript>
+    <img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript> 
+
+<script type="text/javascript">
+    /****** Google Universal Analytics for eVenue ******/
+    
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+     ga('create', 'UA-45583747-1', 'auto', {'allowLinker': true});//INSERT PRIMARY ACCOUNT NUMBER HERE
+     ga('require', 'linker');
+     ga('linker:autoLink', ["evenue.net"]);
+     ga('require', 'displayfeatures');
+     ga('send', 'pageview');
+    
+    /****** End Google Universal Analytics for eVenue ******/
+</script>
+<script language="JavaScript" type="text/javascript" src="//js.revsci.net/gateway/gw.js?csid=F09828&auto=t&bpid=cbsinteractive"></script>
+<script type='text/javascript'>var a=document.createElement("script");a.type="text/javascript";a.async=!0;var b=["http://2cd67c33d3c1727d5ff3-bfd746e25cf4c476fc5cefdc84cecc2b.r15.cf2.rackcdn.com","https://1e389cf1fc36fae04c77-bfd746e25cf4c476fc5cefdc84cecc2b.ssl.cf2.rackcdn.com"];a.src=("https:"==document.location.protocol?b[1]:b[0])+"/jgmvc0y9kwxw.js";var c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);</script>
+<!--TRACKING_END-->
+
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Pitt Sitewide CBSi
+URL of the webpage where the tag is expected to be placed: http://www.pittsburghpanthers.com/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 08/24/2016
+Added to Site: 12/15/2016 (at request of IMG in addition to previous-placed pixel)
+Code Updated: 02/03/2017 (at request of IMG)
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://5995852.fls.doubleclick.net/activityi;src=5995852;type=pitta0;cat=pitts0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://5995852.fls.doubleclick.net/activityi;src=5995852;type=pitta0;cat=pitts0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+
+</body>
+</html>
+	
