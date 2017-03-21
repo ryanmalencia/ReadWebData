@@ -1,0 +1,550 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" style="height: 100%">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link href="Styles/Calendar/dynamiccss.ashx" rel="stylesheet" type="text/css" media="all" /><script type="text/javascript" src="Includes/Calendar/jquery-1.9.1.min.js"></script><script type="text/javascript" src="Includes/Calendar/jquery-ui-1.10.2.custom.min.js"></script><script type="text/javascript" src="Includes/Calendar/knockout-2.2.1.js"></script><script type="text/javascript" src="Includes/Calendar/knockout.mapping-latest.js"></script><script type="text/javascript" src="Includes/Calendar/ko.lib.js"></script><script type="text/javascript" src="Includes/thumbnailviewer.js"></script><script type="text/javascript" src="Includes/Calendar/dea.curtain-01.js"></script><script type="text/javascript" src="Includes/Calendar/event-curtains-data-ko-viewmodel.js"></script><script type="text/javascript" src="Includes/Globals.js"></script><meta http-equiv="CACHE-CONTROL" content="NO-CACHE" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Content-Language" content="en" /><title>
+	
+        Master Calendar - Event Details
+</title>
+    <script type="text/javascript" src="Includes/json.js"></script>
+    <script type="text/javascript" src="Includes/Globals.js"></script>
+    <script type="text/javascript" src="Includes/Common.js"></script>
+    <link href="Styles/thumbnailviewer.css" rel="stylesheet" type="text/css" />
+    <!--<script type="text/javascript" src="Includes/thumbnailviewer.js"></script>-->
+    <!--<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>-->
+    <script type="text/javascript">
+        // if not child init knockout
+        function SetRepeatedItems(udfContainer, udfs, ticklers, keywords, calendars) {
+            var parent = $('#' + udfContainer); // this will be the id of the div that comes from server
+            
+        
+            $.each(udfs, function (i, v) {
+                $('<div/>')
+                    .addClass('row space')
+                    .append($('<div/>').css('width', '300px').html(v.UDFKey))
+                    .append($('<div/>').addClass('font-weight-normal').html(v.UDFValue))
+                    .appendTo(parent);
+            });
+
+
+            var parentTickler = $('#TicklersContainer' + timeStamp);
+            $.each(ticklers, function (i, v) {
+                $('<div/>')
+                    .addClass('row space')
+                    .append($('<div/>').css('width', '300px').html(v.Key))
+                    .append($('<div/>').addClass('font-weight-normal').html(v.Value))
+                    .appendTo(parentTickler);
+            });
+
+
+
+            if (calendars != 'null') SetCalendars(calendars);
+            if (keywords != 'null') SetKeyWords(keywords);
+
+        }
+
+        function SetKeyWords(keywords) {
+            keywords = $.parseJSON(keywords);
+            var k = keywords.Value.split(',');
+            
+            var parent = $('#EventKeywordsContainer' + timeStamp);
+            
+            $('<div/>')
+                .addClass('row space')
+                .append($('<div/>').css('width', '100px').html(keywords.Key))
+                .append($('<div/>').attr('id', 'keywords' + timeStamp).addClass('font-weight-normal'))
+                .appendTo(parent);
+
+            
+            
+            $.each(k, function (i, v) {
+                var separator = ','
+                //$('<a/>').attr('href', '#').html(v).appendTo($('#keywords' + timeStamp));
+                if (isChild && isPreview == false)
+                    $('<a/>').attr('href', '#').attr('onclick', 'LoadTag("' + v + '");').html(v).appendTo($('#keywords' + timeStamp));
+                else
+                    $('<span/>').attr('href', '#').html(v).appendTo($('#keywords' + timeStamp));
+
+                if (i != k.length - 1)
+                    $('#keywords' + timeStamp).append(separator);
+            });
+
+            
+            
+            /*
+            $.each(k, function (i, v) {
+                var separator = ','
+                //$('<a/>').attr('href', '#').html(v).appendTo($('#keywords' + timeStamp));
+                $('<span/>').attr('href', '#').html(v).appendTo($('#keywords' + timeStamp));
+                if (i != k.length - 1)
+                    $('#keywords' + timeStamp).append(separator);
+            });*/
+        }
+
+
+        function SetRelatedData() {
+            
+        }
+
+        function SetCalendars(calendars) {
+            calendars = $.parseJSON(calendars); //Dea.JSON.stringify(calendars);
+            var k = calendars.Value.split(',');
+
+            var parent = $('#EventCalendarsContainer' + timeStamp);
+
+            $('<div/>')
+                .addClass('row space')
+                .append($('<div/>').css('width', '100px').html(calendars.Key))
+                .append($('<div/>').attr('id', 'eventCalendars' + timeStamp).addClass('font-weight-normal'))
+                .appendTo(parent);
+
+            $.each(k, function (i, v) {
+                var separator = ','
+                $('<span/>').attr('href', '#').html(v).appendTo($('#eventCalendars' + timeStamp));
+
+                if (i != k.length - 1)
+                    $('#eventCalendars' + timeStamp).append(separator);
+            });
+        }
+
+     </script>
+   
+
+    <style type="text/css">
+        .etWidth 
+        {
+            width:10px;
+            height:10px;
+        }
+    </style>
+
+<script type="text/javascript" id="addthisJS77b1cdb6ca6841ce8c46e25bd9e2dfad" src="https://s7.addthis.com/js/250/addthis_widget.js"></script><script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script><meta id="titleMeta" name="title" content="Emerging Leaders Weekend" /><meta id="descripitontitleMeta" name="description" /><meta itemprop="name" content="Emerging Leaders Weekend" /><meta itemprop="description" content="" /><meta property="og:title" content="Emerging Leaders Weekend" /><meta property="og:site_name" content="University of Pittsburgh, William Pitt Union" /><meta property="og:description" content="" /><meta property="og:url" content="https://events.pitt.edu/MasterCalendar/EventDetails.aspx?data=oUtg1FbeNNMzVYol6lEnPQasYM1Tepml" /></head>
+<body class="mc-bg-color-2" style="height: 100%;">
+    <form name="form1" method="post" action="EventDetails.aspx?EventDetailId=184999" id="form1" style="height: 100%">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="k5cAfH284PrpPMJOWjQpzDYPLKwwa4MN4TyxAAQ0a25Ie0M5nVuevx0kRgILEuJiQF3A6HAzQyAnmGYEsayREenEZgt8K8q07jiUpIAiH/ok5Ldg0xIRpH6JIJPKnIgDkbqcPLGGe6b5o8k3p76i60E5uRqr1Tol8DsXQ/3d+JrnSHn7Nerq/51GnAi382ExoURfVXpyTFhDeYY7aSCmqFVVI9PICDxm/9eLLLe+leghiV7pVHEJt1Wzyui6w0aRv+HdlYJpS1wLlfvu+C6hxDglwCCvUgiSbMytJ2sjsf/R63ImIHogrIHtZgJ//GCuv5aL2UfPcpMOYcLc0yvwEN4TsCpYdPyDOCijJdRxZLsySzonOKLqXOPpYSng00eVoorstQ==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var emailRequiredMsg = 'You did not select any Email';var invalidEmailMsg = "Email is Invalid";var googleCalLink = "http://www.google.com/calendar/event?action=TEMPLATE&text=Emerging+Leaders+Weekend&dates=20170326T133000Z/20170326T173000Z&location=William+Pitt+Union+548&details=&trp=true&sprop=website:https://events.pitt.edu/MasterCalendar/EventDetailsAdmin.aspx?data=hHr80o3M7J7I9ZyE2A%2fxhCRy8R5sqDtqvGMjHkBIxAwdV3J11N3QvmSvjbzho5VI";var yahooCalLink = "http://calendar.yahoo.com?v=60&title=Emerging+Leaders+Weekend&DUR=0400&st=20170326T093000&in_loc=William+Pitt+Union+548&DESC=&URL=https://events.pitt.edu/MasterCalendar/EventDetailsAdmin.aspx?data=hHr80o3M7J7I9ZyE2A%2fxhCRy8R5sqDtqvGMjHkBIxAwdV3J11N3QvmSvjbzho5VI";var windowsLiveLink = "http://calendar.live.com/calendar/calendar.aspx?rru=addEvent&summary=Emerging+Leaders+Weekend&dtstart=20170326T133000Z&dtend=20170326T173000Z&location=William+Pitt+Union+548&description=";downloadIcsLink = "/MasterCalendar/AddToCal.aspx?data=oUtg1FbeNNMzVYol6lEnPT86XzoIfxMwdqebxZY%2fQV3eWyze1hcdfA%3d%3d";var eventTitle = "Emerging Leaders Weekend";var hideSocial = false;var nextDayEvent = false;var _showReminder = true;var _detailsPageLink = "https%3a%2f%2fevents.pitt.edu%2fMasterCalendar%2fEventDetails.aspx%3fdata%3doUtg1FbeNNMzVYol6lEnPQasYM1Tepml";var _showMap = false;
+ var longitude = 0;
+ var latitude = 0;
+var relatedlistData = [];
+var _showRelated = false;
+ function OpenEmail() {
+window.top.location.href = 'mailto:?subject='+escape("University of Pittsburgh, William Pitt Union event: Emerging Leaders Weekend ")+'&body='+BuildEmailDescription("Date: 3/26/2017","Time: 9:30 AM - 1:30 PM","Location: William Pitt Union 548","https://events.pitt.edu/MasterCalendar/EventDetails.aspx?data=hHr80o3M7J7I9ZyE2A%2fxhCRy8R5sqDtqvGMjHkBIxAwdV3J11N3QvmSvjbzho5VI"); return false;  } function BuildEmailDescription(strDate,strTime,strLocation,eventurl) {return escape("Here\'s an event that you might be interested in:" + String.fromCharCode(13) + String.fromCharCode(13) + strDate + String.fromCharCode(13) + strTime + String.fromCharCode(13) + strLocation + String.fromCharCode(13) + String.fromCharCode(13) + 'URL: ' + eventurl);} 
+var isChild = false;
+ var isFeatured=false;
+ var isPreview=false;
+ var timeStamp = '77b1cdb6ca6841ce8c46e25bd9e2dfad';
+;
+ var detailId = '184999';
+var eventUrl = 'https%3a%2f%2fevents.pitt.edu%2fMasterCalendar%2fEventDetails.aspx%3fdata%3doUtg1FbeNNMzVYol6lEnPQasYM1Tepml';
+var ems_timeSep = ":",mc_Help = "Help",mc_useHelpIcon = 0,mc_allowSystemCheckAccess = 1,mc_localAddress = "136.142.210.233",mc_remoteHost = "96.235.39.111",ems_nosystemcheckacess = "Access to this page is restricted to the server that is hosting the application. To view version information see the About.aspx page",ems_AM = "AM",ems_PM = "PM",ems_timeFormat = "h:mm tt",ems_timePicker = "Time Picker",eventDetailstxt = "Event Details",gotoString = "Go to the current month",todayString = "Today is",scrollLeftMessage = "Click to scroll to previous month. Hold mouse button to scroll automatically.",scrollRightMessage = "Click to scroll to next month. Hold mouse button to scroll automatically.",selectMonthMessage = "Click to select a month.",selectYearMessage = "Click to select a year.",selectDateMessage = "Select [date] as date.",ems_UnhandledCallback = "Unhandled Callback.",ems_FailedToLoadCallbackXml = "Error loading xml document from server",localizationKey = "en-US",localizationDateSeparator = "/",localizationDateFormat = "m/d/yyyy",ems_FirstDateViolation = "Date violates your first available event date",ems_LastDateViolation = "Date violates your last available event date",ems_InvalidDate = "Invalid Date",ems_InvalidTime = "Invalid Time",ems_CloseTheCalendar = "Close the Calendar",mc_rootDirectory = "/MasterCalendar/",ajaxRootDirectory = "",sSelectedColor = "rgb(175,188,33)";checkVersion("data=x3ijH9FTK9UfR1IPnJHJBB0vNIurQVtwSnGbxY%2bikSKDfpyXwL0zZA%3d%3d");//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="89436E05" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Nb+eWikOEEpa+33DLPTi0xrVt0j1OPU7V0O/NX8/oQuWnMAt+ocI7kMN1e9O8iVUqGRLQUIzVQTlVbsrwvApyuKZl9I=" />
+    <div id="eventDetailsHolder77b1cdb6ca6841ce8c46e25bd9e2dfad" style="height: 100%; position: relative;overflow:hidden">
+
+        <div class="row collapse mc-title-primary bg-color2 banner">
+            <div class="twelve column">
+                
+                <div class="pr6 event-list-expand-event fr">
+                    <div title='Close' class="event-contract-expand icon contract pointer fr" onclick="$(this).parents('.accordion').prev('div').data('accordion').collapseAccordion()">
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row mc-title-primary bg-color2 backToCalLink" style="width:100%">
+            <div id="twelve column">
+                <span class="fl pointer calendar-link" style="padding-left:.5em;">Back to Calendar</span>
+            </div>
+        </div>
+
+        <div class="event-page-event">
+                                    
+            <section role="navigation" class="section-event-page-header" style="display: none;">
+                <div class="event-header mc-title-primary pr6" style="width:100%;background-image:none;">
+                    <div class="event-header-nav fl">
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium neb" style="border-left:1px solid #cccccc" data-show-curtain="name:email,type:down,panelAttr:data-curtain">
+                            <div class="icon email fl mt5"></div>
+                            <span class="font-size-normal">Email</span>
+                        </div>
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium neb" style="border-left:1px solid #cccccc" data-show-curtain="name:reminder,type:down,panelAttr:data-curtain">
+                            <div class="icon share fl mt5"></div>
+                            <span class="font-size-normal">Reminder</span>
+                        </div>
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium neb" style="border-left:1px solid #cccccc" data-show-curtain="name:map,type:right,panelAttr:data-curtain">
+                            <div class="icon map fl mt5"></div>
+                            <span class="font-size-normal">Map</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="banner" style="width: 100%; display: none">
+                <div class="centered" style="width: 968px">
+                    
+                </div>
+            </div>
+
+            <!-- BEGIN Curtain Area-->
+            <div class="row p20 curtain-area" style="overflow:auto">
+                <div id="microData">
+	
+                        <div class="seven columns">
+                            <div class="row pl10 pr20">
+                                <h1 id="EventTitle77b1cdb6ca6841ce8c46e25bd9e2dfad" class="mc-color-3 font-size-Xlarge font-weight-bold scroller-text-title mb20">Emerging Leaders Weekend </h1>
+                                <div class="mc-color-4 font-size-small font-weight-bold scroller-text-info mb20">
+                                    <div id="InfoDate77b1cdb6ca6841ce8c46e25bd9e2dfad" class="info-date">Sunday, March 26, 2017</div><div id="InfoTime77b1cdb6ca6841ce8c46e25bd9e2dfad" class="info-time fl">9:30 AM - 1:30 PM</div><div class="icon next fl ml5 pointer next-day-event" style="margin-top:-3px; display:none;" title="End time goes into the next day"></div>
+                                    <div id="Infolocation77b1cdb6ca6841ce8c46e25bd9e2dfad" class="info-location" style="clear:both;"><a href="http://www.tour.pitt.edu/tour/william-pitt-union" target="_blank">William Pitt Union 548</a></div><div id="EventTypeLabel" class="font-weight-bold mt4">
+		Event Type
+	</div><div id="EventType77b1cdb6ca6841ce8c46e25bd9e2dfad" class="font-weight-normal">Lecture</div><div id="ContactLabel" class="font-weight-bold mt4">
+		Contact
+	</div><div id="ContactName77b1cdb6ca6841ce8c46e25bd9e2dfad" class="font-weight-normal">CCLD</div><div id="ContactEmail77b1cdb6ca6841ce8c46e25bd9e2dfad" class="font-weight-normal"><a href="mailto:srothrock@pitt.edu">srothrock@pitt.edu</a></div><div id="ContactPhone77b1cdb6ca6841ce8c46e25bd9e2dfad" class="font-weight-normal">412-648-7840</div><div id="ShortEventUrlLabel" class="font-weight-bold mt4">
+		Link
+	</div><div id="EventUrl77b1cdb6ca6841ce8c46e25bd9e2dfad" class="font-weight-normal">https://events.pitt.edu/MasterCalendar/EventDetails.aspx?EventDetailId=184999</div>
+                                </div>
+
+                                <div id="eventDescriptionEventDetails">
+                                    
+                                </div>
+
+                                <div class="mc-color-4 font-size-small font-weight-normal scroller-text-info mb20">
+                                    
+                                 </div>
+                            </div>
+                        </div>
+                
+</div>
+                <div class="five columns" style="height:100%;">
+                    <div class="row space">
+                        <div class="fr mr4">
+                            <div id="SocialContainer77b1cdb6ca6841ce8c46e25bd9e2dfad">
+                              <div id="toolbox77b1cdb6ca6841ce8c46e25bd9e2dfad" class="addthis_toolbox addthis_default_style addthis_32x32_style"></div>
+                              <script type="text/javascript">
+                                  var tbx = document.getElementById("toolbox" + timeStamp),
+                                      svcs = { facebook: '', twitter: '', email: '', compact: '' };
+                                  for (var s in svcs) {
+                                      tbx.innerHTML += '<a class="addthis_button_' + s + ' fl pl5">' + svcs[s] + '</a>';
+                                  }
+                                  addthis.toolbox("#toolbox" + timeStamp, { "services_exclude": "print" }, { url: eventUrl, title: eventTitle });
+                              </script>
+                                <!-- AddThis Button END -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row space">
+                        <div class="fl pr10 theImage" style="width:100%;">
+                            
+                        </div>
+                    </div>
+                    <div class="event-special-fields-container">
+                        <div id="TicklersContainer77b1cdb6ca6841ce8c46e25bd9e2dfad" class="event-ticklers mc-color-4 font-size-small font-weight-bold scroller-text-info"></div>
+                        <div id="custom1Holder" class="mc-color-4 font-size-small font-weight-bold">
+                            <div class="row space">
+                                
+                                
+                                <div id="CustomLabel1">
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div id="custom2Holder" class="mc-color-4 font-size-small font-weight-bold">
+                            <div class="row space">
+                                
+                                
+                                <div id="CustomLabel2">
+                                </div>
+                                
+                                <span id="CustomDescription2" class="float padLeft"></span>
+                            </div>
+                        </div>
+                        <div id="EventUDFsContainer77b1cdb6ca6841ce8c46e25bd9e2dfad" class="event-udfs mc-color-4 font-size-small font-weight-bold scroller-text-info">
+                        </div>
+                        <div id="EventCalendarsContainer77b1cdb6ca6841ce8c46e25bd9e2dfad" class="event-calendars mc-color-4 font-size-small font-weight-bold">
+                            
+                        </div>
+                        <div id="EventKeywordsContainer77b1cdb6ca6841ce8c46e25bd9e2dfad" class="event-keywords mc-color-4 font-size-small font-weight-bold">
+                        </div>
+                        <div class="event-collapse mc-color-4 font-size-normal mb20 fr">
+                            <a onclick="$(this).parents('.accordion').prev('div').data('accordion').collapseAccordion()" class="fr">less</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-sliding-container" style="display: block;">
+
+            <!-- Adjust break points -->
+
+            <!-- BEGIN Add -->
+            <div class="event-sliding fl mc-bg-color-3 opacity-90Full" style="overflow:hidden; height:240px; width:100%; display:none; position:absolute" data-curtain="add">
+
+                <div class="c-wrapper-active fr opacity-full pointer" style="position: absolute;
+                    right: 20px; top: 10px; z-index: 1000;" data-curtain-close="false">
+                    <div title='Down'  class="fl icon down">
+                    </div>
+                </div>
+
+                <div style="position:relative;top:40px;" class="opacity-Full">
+                    <div class="row">
+                        <div class="six centered">
+                            <div class="ics-button button selected fl br-5 p5 mb5 ml5" style="line-height:20px;width:150px;"><div title='Download iCal' class="social-media-icon ical fl mr10"></div><span>Download iCal</span></div>
+                        </div>
+               
+                        <div class="six centered">
+                            <div class="google-button button selected fl br-5 p5 ml5 mb5" style="line-height:20px;width:150px;"><div title='Google Calendar' class="social-media-icon google fl mr10"></div><span>Google Calendar</span></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="six centered">
+                            <div class="yahoo-button button selected fl br-5 p5 mb5 ml5" style="line-height:20px;width:150px;"><div title='Yahoo Calendar' class="social-media-icon yahoo fl mr10"></div><span>Yahoo Calendar</span></div>
+                        </div>
+                
+                        <div class="six centered">
+                            <div class="wlive-button button selected fl br-5 p5 ml5" style="line-height:20px;width:150px;"><div title='Windows Live' class="social-media-icon wlive fl mr10"></div><span>Windows Live</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Add -->
+           
+            <!-- BEGIN Reminder -->
+            <div class="event-sliding fl mc-bg-color-3 opacity-95Full" style="overflow:hidden;height:260px;width:100%; display:none;position:absolute" data-curtain="reminder">
+
+                <div class="c-wrapper-active fr opacity-full pointer" style="position: absolute;
+                    right: 20px; top: 10px; z-index: 1000;" data-curtain-close="false">
+                    <div title='Down' class="fl icon down">
+                    </div>
+                </div>
+                
+                <div class="row p20">
+                    <div style="clear:both" class="ml10 mt10 mc-color-1 font-size-small">
+                        *Reminders include change notification.
+                    </div>
+                    <div style="clear: both" class="space">
+                        <div class="input-wrapper fl br-5 p5 ml10 mb10 label" style="line-height: 20px;">
+                            
+                            <label class="fl" for="EmailBox">Email</label>
+                            <input type="text"  id="EmailBox" class="ml10 fl" style="width: 200px;" placeholder="Enter your email address (required)" value="" />
+                            <div title="Required" class="c-wrapper-active fr opacity-medium ml10" style="width: 20px;
+                                height: 20px">
+                                <div class="icon back" style="margin-left: -3px; margin-top: -2px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml10 mb10" style="clear: both; line-height: 30px; vertical-align: middle">
+                        <div class="input-wrapper fl br-5 p5 mb10" style="line-height: 20px;">
+                            <span class="fl pr5 label">Remind me </span>
+                            <select id="MinutesBefore" class="fl">
+                                <option value="0">0 minutes</option>
+                                <option value="5">5 Minutes</option>
+                                <option value="10">10 Minutes</option>
+                                <option value="15">15 Minutes</option>
+                                <option value="30">30 Minutes</option>
+                                <option value="45">45 Minutes</option>
+                                <option value="60">1 Hour</option>
+                                <option value="120">2 Hours</option>
+                                <option value="180">3 Hours</option>
+                                <option value="240">4 Hours</option>
+                                <option value="300">5 Hours</option>
+                                <option value="360">6 Hours</option>
+                                <option value="420">7 Hours</option>
+                                <option value="480">8 Hours</option>
+                                <option value="540">9 Hours</option>
+                                <option value="600">10 Hours</option>
+                                <option value="660">11 Hours</option>
+                                <option value="720">12 Hours</option>
+                                <option value="1080">18 Hours</option>
+                                <option value="1440">1 Day</option>
+                                <option value="2880">2 Day</option>
+                                <option value="4320">3 Day</option>
+                                <option value="5760">4 Day</option>
+                                <option value="7200">5 Day</option>
+                                <option value="10080">1 Week</option>
+                                <option value="20160">2 Weeks</option>
+                            </select>
+                            <span class="fl pl5 label">before event starts.</span>
+                        </div>
+                    </div>
+                    <div style="clear: both; line-height: 15px; vertical-align: middle" class="ml10 mt10 mc-color-1">
+                        <div class="row">
+                            <div class="eight columns">
+                                <input id="SetAllOccurences" type="checkbox" name="SetAllOccurences" emsDataId="AllOccur" /><label for="SetAllOccurences" class="ml10 mc-color-1">Set Reminder for all occurrences of this event.</label>
+                            </div>
+                            <!-- wired the click and the close -->
+                            <div class="four columns">
+                                <div class="fr mr20">
+                                    <div title='Set Reminder' class="reminder-button button selected fl br-5 p5" style="line-height: 20px;">
+                                        <div class="icon alarm fl"></div>
+                                        Set Reminder</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Reminder -->
+
+            <!-- BEGIN Social Media -->
+            <div style="overflow:hidden;height:100%;width:100%;display:none;position:absolute;" data-curtain="socialmedia">
+
+                <div class="event-sliding fl mc-bg-color-3 opacity-90Full" style="height:100%;width:100%;"></div>
+
+                <div class="c-wrapper-active fr opacity-full pointer" style="position:absolute;right:20px;top:50%;z-index:1000;" data-curtain-close="false"><div class="fl icon forward"></div></div>
+
+                <div class="row">
+                    <div class="eleven column  mc-bg-color-2 br-5 curtain-content" style="z-index:1000;position:absolute;top:0;overflow:auto">
+                        <div class="p20">
+                            <h1 style="font-size:64px"></h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END Social Media -->
+
+            <!-- BEGIN Map-->
+            <div style="overflow:hidden;height:100%;width:100%;display:none;position:absolute;" data-curtain="map">
+
+                <div class="event-sliding fl mc-bg-color-3 opacity-90Full" style="height: 100%; width: 100%;"></div>
+
+                <div class="c-wrapper-active fr opacity-full pointer" style="position: absolute; right: 20px; top: 50%; z-index: 1000;" data-curtain-close="false" data-curtain-data="loadMap"><div title='Close' class="fl icon forward"></div></div>
+
+                <div class="row">
+                    <div class="eleven column  mc-bg-color-2 br-5 curtain-content" style="z-index:1000;position:absolute;top:0;overflow:auto">
+                        <div class="p20">
+                            <div class="row pl10">
+                                <div class="twelve column mc-color-3 font-size-large font-weight-bold scroller-text-title mb20">
+                                  <div id="MapTitle"></div> 
+                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="seven column po">
+                                    <div class="mc-boxshadow ml20 mc-border-width-3px mc-border-style-solid mc-border-color-5">
+                                       <div id="map_canvas" style="width: 100%; height: 300px;"></div>
+                                    </div>
+                                </div>
+                                <div class="five column end">
+                                    <div class="ml10">
+                                        <div id="MapLocation"></div>
+                                        <div id="MapAddress"></div>
+                                        <div id="MapLocationHours"></div>
+                                        <div id="MapLocationPhone"></div>
+                                        <div title='Get Directions' class="directions-button button selected fl br-5 p5 space" style="line-height: 20px;">
+                                            <div class="icon car fl">
+                                            </div>
+                                             Get Directions</div>
+                                        <div class="button selected fl br-5 p5" style="line-height: 20px;display:none">
+                                            <div class="icon email fl">
+                                            </div>
+                                            Email Directions</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Map-->
+
+
+            <!-- BEGIN Related-->
+            <div style="overflow:hidden;height:100%;width:100%;display:none;position:absolute;" data-curtain="related">
+                <div class="event-sliding fl mc-bg-color-3 opacity-90Full" style="height: 100%; width: 100%;">
+                </div>
+                <div class="c-wrapper-active fr opacity-full pointer" style="position: absolute;
+                    right: 20px; top: 50%; z-index: 1000;" data-curtain-close="false" data-curtain-data="getRelatedData1" data-curtain-data-args="this">
+                    <div title='Close' class="fl icon forward">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="eleven column  mc-bg-color-2 br-5 curtain-content" style="z-index: 1000; position: absolute;top:0;overflow:auto">
+                        <div class="p20">
+                            <div class="row el-title show-medium show-large">
+                                <div class="two columns title">
+                                    Event Date</div>
+                                <div class="two columns title">
+                                    Event Time</div>
+                                <div class="four columns title">
+                                    Title</div>
+                                <div class="four columns title">
+                                     <div id="ReleatedLocationLabel">
+	Location
+</div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        
+                        <div class="templateContainer">
+                            
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END Related-->
+        </div>
+
+        <section role="navigation" class="section-event-page-footer">
+                <div class="event-footer pl6 mc-title-primary pr6  " style="width:100%;position:absolute;bootom:0">
+                    <div class="event-footer-nav fl" >
+                        <div class="email-button fl pl6 pr6 pointer nav-button opacity-medium ben" data-show-slider="none">
+                            <div class="icon email fl" title="Email"></div>
+                            <span class="font-size-normal show-medium show-large fl">Email</span>
+                        </div>
+
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium ben" style="border-left:1px solid #cccccc" data-show-curtain="name:add,type:down,panelAttr:data-curtain">
+                            <div class="icon add fl" title="Add"></div>
+                            <span class="font-size-normal show-medium show-large fl">Add</span>
+                        </div>
+
+
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium ben" style="border-left:1px solid #cccccc" data-show-curtain="name:reminder,type:down,panelAttr:data-curtain,hide:_showReminder==false">
+                            <div class="icon alarm fl" title="Set Reminder"></div>
+                            <span class="font-size-normal show-medium show-large fl">Set Reminder</span>
+                        </div>
+                    </div>
+                    <div class="event-footer-nav fr">
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium ben" style="border-left:1px solid #cccccc" data-show-curtain="name:socialmedia,type:right,panelAttr:data-curtain,hide:true">
+                            <div class="icon ballontext fl"></div>
+                            <span class="font-size-normal fl">Social Media</span>
+                        </div> 
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium ben" style="border-left:1px solid #cccccc;" data-show-curtain="name:map,type:right,panelAttr:data-curtain,hide:_showMap==false,mapId:timeStamp,lng:longitude,lat:latitude">
+                            <div class="icon map fl" title="Map"></div>
+                            <span class="font-size-normal show-medium show-large fl">Map</span>
+                        </div>
+                        <div class="fl pl6 pr6 pointer nav-button opacity-medium ben" style="border-left:1px solid #cccccc" data-show-curtain="name:related,type:right,panelAttr:data-curtain,hide:_showRelated==false">
+                            <div class="icon detail-list fl" title="Related Events"></div>
+                            <span class="font-size-normal show-medium show-large fl">Related Events</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+     <script type="text/html" id="relatedEvents-list-template">
+        <!-- ko if: $data.Title().length > 0 -->
+            <div class="row font-size-small mc-border-bottom-solid mc-border-bottom-width-1px mc-border-color-5">
+                <div class="two columns" ><div class="pl6"><span data-bind="text:$data.EventDate()"></span></div></div>
+                <div class="two columns"><div class="pl6"><span data-bind="text:$data.EventTime()"></span></div></div>
+                <div class="four columns font-weight-bold"><div class="pl6 font-weight-bold"  data-bind="text:$data.Title()"></div></div>
+                <div class="four columns"><div class="pl6" data-bind="text:$data.Location()"></div></div>
+            </div>
+        <!-- /ko -->
+    </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Dea.setDisplay("custom1Holder", "none");Dea.setDisplay("custom2Holder", "none");$(document).ready(function(){ SetRepeatedItems('EventUDFsContainer77b1cdb6ca6841ce8c46e25bd9e2dfad',[{"Id":15,"UDFKey":"Event Description","UDFValue":"Emerging Leaders weekend program"},{"Id":36,"UDFKey":"Account #","UDFValue":"04-06127"},{"Id":46,"UDFKey":"Food- Multipurpose","UDFValue":"No"},{"Id":47,"UDFKey":"Sales Multipurpose","UDFValue":"No"},{"Id":44,"UDFKey":"OCC Goal Area","UDFValue":"Leadership Development"},{"Id":42,"UDFKey":"Open or Private Event","UDFValue":"Open to all undergraduate students"},{"Id":37,"UDFKey":"Children","UDFValue":"No"}],[],'null','{"Key":"Calendar","Value":"Student Affairs Private Events"}'); });//]]>
+</script>
+</form>
+    <script src="Includes/Calendar/event-page.js" type="text/javascript"></script>
+   
+</body>
+</html>

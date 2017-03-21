@@ -14,14 +14,14 @@ namespace ReadWebData
         private static int year = 0;
         private static int month = 0;
         //private static int start = 165000;
-        private static int start = 165000;
+        private static int start = 170950;
         //private static int end = 205000;
         private static int end = 185000;
         static void Main(string[] args)
         {
-            month = Int32.Parse(args[0]);
-            year = Int32.Parse(args[1]);
-            string type = args[2];
+            //month = Int32.Parse(args[0]);
+            //year = Int32.Parse(args[1]);
+            //string type = args[2];
 
             WebClient client = new WebClient();
 
