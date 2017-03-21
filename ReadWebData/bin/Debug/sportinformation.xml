@@ -1005,12 +1005,12 @@ function fanslauncher(url) {
   <div class="module">
     <div id="ad-rail">
       <div class="site-ad">
-        <div id="div-gpt-8814492">
+        <div id="div-gpt-8358962">
   <script type='text/javascript'>
        googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[300,250],[300,600]], 'div-gpt-8814492') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[300,250],[300,600]], 'div-gpt-8358962') 
       .addService(googletag.pubads())
-      .setTargeting("pos", isViewable('div-gpt-8814492', 250, 0.5))
+      .setTargeting("pos", isViewable('div-gpt-8358962', 250, 0.5))
       .setTargeting("pos2", "rail")
       .setTargeting("session", MadisonSessionCode)
       .setTargeting("firstpage", adFirstpage)
@@ -1019,7 +1019,7 @@ function fanslauncher(url) {
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-8814492');
+      googletag.display('div-gpt-8358962');
   });
   </script>
 </div>
@@ -1116,7 +1116,7 @@ function fanslauncher(url) {
 
 <div class="light section story-superleader-section">
   <div class="container">
-  <div id="div-gpt-3777565">
+  <div id="div-gpt-3664295">
   <script type='text/javascript'>
       
 if(typeof(gptMap_superleader) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
@@ -1132,7 +1132,7 @@ addSize([100,50],[[970,66],[970,90]]).
 build();
 }
  googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', superleader_size, 'div-gpt-3777565') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', superleader_size, 'div-gpt-3664295') 
       .defineSizeMapping(gptMap_superleader)
       .addService(googletag.pubads())
       .setTargeting("pos", "bottom")
@@ -1144,7 +1144,7 @@ build();
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-3777565');
+      googletag.display('div-gpt-3664295');
   });
   </script>
 </div>
@@ -1637,7 +1637,7 @@ $(function(){
 
 <div id="sticky-footer">
   <div class="site-ad">
-    <div id="div-gpt-2942173">
+    <div id="div-gpt-6234431">
   <script type='text/javascript'>
       
 if(typeof(gptMap_sticky970x66) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
@@ -1653,7 +1653,7 @@ addSize([100,50],[[970,66],[970,90]]).
 build();
 }
  googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[970,66],[970,90],[728,90],[320,50]], 'div-gpt-2942173') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[970,66],[970,90],[728,90],[320,50]], 'div-gpt-6234431') 
       .defineSizeMapping(gptMap_sticky970x66)
       .addService(googletag.pubads())
       .setTargeting("pos", "top")
@@ -1665,7 +1665,7 @@ build();
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-2942173');
+      googletag.display('div-gpt-6234431');
   });
   </script>
 </div>
@@ -1699,10 +1699,10 @@ $("a[href^=#coaches]").on('click', function comeJumptoEm(e){
 
 
 <!-- OutOfPage Ad - aka Intromercial -->
-<div id="div-gpt-975259">
+<div id="div-gpt-7141171">
   <script type='text/javascript'>
     googletag.cmd.push(function(){
-      googletag.defineOutOfPageSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', 'div-gpt-975259')
+      googletag.defineOutOfPageSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', 'div-gpt-7141171')
       .addService(googletag.pubads())
       .setTargeting("pos2", "popup")
       .setTargeting("session", MadisonSessionCode)
@@ -1712,7 +1712,7 @@ $("a[href^=#coaches]").on('click', function comeJumptoEm(e){
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-975259');
+      googletag.display('div-gpt-7141171');
   });
   </script>
 </div>
@@ -1794,7 +1794,7 @@ var _rsCL=1;
   DW.clear();
 </script>
 <noscript>
-<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1490062967&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1490063398&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
 </noscript>
 
 <!-- Comscore tag -->

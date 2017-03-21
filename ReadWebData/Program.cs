@@ -14,7 +14,7 @@ namespace ReadWebData
         private static int year = 0;
         private static int month = 0;
         //private static int start = 165000;
-        private static int start = 166782;
+        private static int start = 175196;
         //private static int end = 205000;
         private static int end = 185000;
         static void Main(string[] args)
@@ -26,7 +26,7 @@ namespace ReadWebData
             WebClient client = new WebClient();
 
             string url = "";
-
+            /*
             switch (type)
             {
                 case "sports":
@@ -45,7 +45,7 @@ namespace ReadWebData
             readFitnessLocations();
             readLibraryLocations();
             readComputerLocations();
-
+            */
             for (int i = start; i < end; i++)
             {
                 url = "https://events.pitt.edu/MasterCalendar/EventDetails.aspx?EventDetailId=" + i;
@@ -219,6 +219,10 @@ namespace ReadWebData
                     if (lines[i + 3].Contains("class=\"info-location\""))
                     {
                         Event.Location = lines[i + 3].Split('>')[2].Split('<')[0];
+                        if(Event.Location.Trim() == "")
+                        {
+                            Event.Location = lines[i + 3].Split('>')[1].Split('<')[0];
+                        }
                     }
                     if (lines[i + 5].Contains("EventType"))
                     {
@@ -229,7 +233,10 @@ namespace ReadWebData
                     }
                     if (lines[i + 7].Contains("id=\"Department"))
                     {
-                        Event.Organization = lines[i + 7].Split('>')[2].Split('<')[0];
+                        if (Event != null)
+                        {
+                            Event.Organization = lines[i + 7].Split('>')[2].Split('<')[0];
+                        }
                     }
                     if (Event != null) 
                     {
@@ -252,6 +259,7 @@ namespace ReadWebData
                         if (Event.Date >= DateTime.Now)
                         {
                             CampusEventAPI.AddEvent(Event);
+                            break;
                         }
                     }
                 }
