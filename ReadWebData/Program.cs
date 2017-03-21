@@ -14,7 +14,7 @@ namespace ReadWebData
         private static int year = 0;
         private static int month = 0;
         //private static int start = 165000;
-        private static int start = 175196;
+        private static int start = 165000;
         //private static int end = 205000;
         private static int end = 185000;
         static void Main(string[] args)
@@ -231,11 +231,18 @@ namespace ReadWebData
                             Event.Type = new CampusEventType(lines[i + 5].Split('>')[4].Split('<')[0]);
                         }
                     }
-                    if (lines[i + 7].Contains("id=\"Department"))
+                    if (lines[i + 7].Contains("id=\"Department") && !lines[i + 7].Contains("id=\"DepartmentLabel\""))
                     {
                         if (Event != null)
                         {
                             Event.Organization = lines[i + 7].Split('>')[2].Split('<')[0];
+                        }
+                    }
+                    else if(lines[i + 9].Contains("id=\"Department"))
+                    {
+                        if (Event != null)
+                        {
+                            Event.Organization = lines[i + 9].Split('>')[2].Split('<')[0];
                         }
                     }
                     if (Event != null) 
