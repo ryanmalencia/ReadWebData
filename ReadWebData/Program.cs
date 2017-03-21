@@ -9,9 +9,14 @@ namespace ReadWebData
 {
     class Program
     {
-        private static string file_name = "information.xml";
+        private static string file_name = "sportinformation.xml";
+        private static string event_file_name = "eventinformation.xml";
         private static int year = 0;
         private static int month = 0;
+        //private static int start = 165000;
+        private static int start = 166782;
+        //private static int end = 205000;
+        private static int end = 185000;
         static void Main(string[] args)
         {
             month = Int32.Parse(args[0]);
@@ -40,6 +45,20 @@ namespace ReadWebData
             readFitnessLocations();
             readLibraryLocations();
             readComputerLocations();
+
+            for (int i = start; i < end; i++)
+            {
+                url = "https://events.pitt.edu/MasterCalendar/EventDetails.aspx?EventDetailId=" + i;
+                try
+                {
+                    client.DownloadFile(url, event_file_name);
+                    readEventFile();
+                }
+                catch(Exception e)
+                {
+
+                }
+            }
         }
 
         private static void readPrintLocations()
@@ -118,6 +137,124 @@ namespace ReadWebData
                 loc.Latitude = double.Parse(temp[2]);
                 loc.Longitude = double.Parse(temp[3]);
                 LocationAPI.AddComputerLocation(loc);
+            }
+        }
+
+        private static void readEventFile()
+        {
+            //List<CampusEvent> events = new List<CampusEvent>();
+
+            if (File.Exists(event_file_name))
+            {
+                string[] lines = File.ReadAllLines(event_file_name);
+                CampusEvent Event = null;
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    
+                    if(lines[i].Contains("id=\"EventTitle"))
+                    {
+                        Event = new CampusEvent();
+                        Event.Title = lines[i].Split('>')[1].Split('<')[0].Trim();
+                    }
+
+                    if(lines[i+2].Contains("class=\"info-date\""))
+                    {
+                        int month = 0;
+                        int day;
+                        int year;
+                        string temp = lines[i+2].Split('>')[1].Split('<')[0];
+                        string strmonth = temp.Split(' ')[1];
+                        switch (strmonth)
+                        {
+                            case "January":
+                                month = 1;
+                                break;
+                            case "February":
+                                month = 2;
+                                break;
+                            case "March":
+                                month = 3;
+                                break;
+                            case "April":
+                                month = 4;
+                                break;
+                            case "May":
+                                month = 5;
+                                break;
+                            case "June":
+                                month = 6;
+                                break;
+                            case "July":
+                                month = 7;
+                                break;
+                            case "August":
+                                month = 8;
+                                break;
+                            case "September":
+                                month = 9;
+                                break;
+                            case "October":
+                                month = 10;
+                                break;
+                            case "November":
+                                month = 11;
+                                break;
+                            case "December":
+                                month = 12;
+                                break;
+                        }
+                        Int32.TryParse(lines[i+2].Split('>')[1].Split(' ')[2].Split(',')[0],out day);
+                        Int32.TryParse(lines[i+2].Split('>')[1].Split('<')[0].Split(' ')[3],out year);
+                        DateTime date = new DateTime(year, month, day);
+                        if(date < DateTime.Now)
+                        {
+                            break;
+                        }
+                        Event.Date = date;
+                    }
+                    if (lines[i+2].Contains("class=\"info-time fl\""))
+                    {
+                        Event.Time = lines[i + 2].Split('>')[3].Split('<')[0];
+                    }
+                    if (lines[i + 3].Contains("class=\"info-location\""))
+                    {
+                        Event.Location = lines[i + 3].Split('>')[2].Split('<')[0];
+                    }
+                    if (lines[i + 5].Contains("EventType"))
+                    {
+                        if (Event != null)
+                        {
+                            Event.Type = new CampusEventType(lines[i + 5].Split('>')[4].Split('<')[0]);
+                        }
+                    }
+                    if (lines[i + 7].Contains("id=\"Department"))
+                    {
+                        Event.Organization = lines[i + 7].Split('>')[2].Split('<')[0];
+                    }
+                    if (Event != null) 
+                    {
+                        if (Event.Date == null)
+                        {
+                            Event.Date = new DateTime();
+                        }
+                        if (Event.Location != null)
+                        {
+                            Event.Location = Event.Location.Replace("&amp;", "&");
+                        }
+                        if (Event.Title != null)
+                        {
+                            Event.Title = Event.Title.Replace("&amp;", "&");
+                        }
+                        if (Event.Organization != null)
+                        {
+                            Event.Organization = Event.Organization.Replace("&amp;", "&");
+                        }
+                        if (Event.Date >= DateTime.Now)
+                        {
+                            CampusEventAPI.AddEvent(Event);
+                        }
+                    }
+                }
             }
         }
 
