@@ -19,14 +19,14 @@ namespace ReadWebData
         private static int end = 185000;
         static void Main(string[] args)
         {
-            //month = Int32.Parse(args[0]);
-            //year = Int32.Parse(args[1]);
-            //string type = args[2];
+            month = Int32.Parse(args[0]);
+            year = Int32.Parse(args[1]);
+            string type = args[2];
 
             WebClient client = new WebClient();
 
             string url = "";
-            /*
+            
             switch (type)
             {
                 case "sports":
@@ -39,13 +39,13 @@ namespace ReadWebData
                     client.DownloadFile(url, file_name);
                     break;
             }
-
+            /*
             readPrintLocations();
             readDiningLocations();
             readFitnessLocations();
             readLibraryLocations();
             readComputerLocations();
-            */
+                       
             for (int i = start; i < end; i++)
             {
                 url = "https://events.pitt.edu/MasterCalendar/EventDetails.aspx?EventDetailId=" + i;
@@ -57,6 +57,46 @@ namespace ReadWebData
                 catch(Exception e)
                 {
 
+                }
+            }
+            
+    
+            CampusEventCollection col = CampusEventAPI.GetAllEvents();
+            foreach (CampusEvent Event in col.Events)
+            {
+                updateEventDate(Event);
+            }
+            */
+        }
+
+        private static void updateEventDate(CampusEvent Event)
+        {
+            if (Event.Date.Hour == 0)
+            {
+                string time = Event.Time.Split('-')[0].Trim();
+                if (time.Contains("AM"))
+                {
+                    int hour = Int32.Parse(time.Split('A')[0].Trim().Split(':')[0]);
+                    int minute = Int32.Parse(time.Split('A')[0].Trim().Split(':')[1]);
+                    if (hour == 12)
+                    {
+                        hour = 0;
+                    }
+                    Event.Date = Event.Date.AddHours(hour);
+                    Event.Date = Event.Date.AddMinutes(minute);
+                    CampusEventAPI.UpdateEventDate(Event);
+                }
+                else if (time.Contains("PM"))
+                {
+                    int hour = Int32.Parse(time.Split('P')[0].Trim().Split(':')[0]);
+                    int minute = Int32.Parse(time.Split('P')[0].Trim().Split(':')[1]);
+                    if (hour != 12)
+                    {
+                        hour = hour + 12;
+                    }
+                    Event.Date = Event.Date.AddHours(hour);
+                    Event.Date = Event.Date.AddMinutes(minute);
+                    CampusEventAPI.UpdateEventDate(Event);
                 }
             }
         }

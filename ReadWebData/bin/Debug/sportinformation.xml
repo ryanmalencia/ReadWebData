@@ -484,11 +484,11 @@ $(function() {
     <div id="right-side">
         <ul id="articleOptions">
             <li>
-                <a href="javascript:window.open('http://www.cstv.com/printable/schools/pitt/calendar/events/2016_201705.html','Printable','toolbar=no,location=no,resizable=no,scrollbars=yes,width=610,height=450'); void('');">
+                <a href="javascript:window.open('http://www.cstv.com/printable/schools/pitt/calendar/events/2016_201706.html','Printable','toolbar=no,location=no,resizable=no,scrollbars=yes,width=610,height=450'); void('');">
                 <img src="http://grfx.cstv.com/story-nav/icon-print2.png" alt="print" /> <span class="share-lg">Print</span></a>
             </li>
             <li>
-                <a href="/email2friend/pitt-email2friend.html?URL=/calendar/events/2016_201705.html">
+                <a href="/email2friend/pitt-email2friend.html?URL=/calendar/events/2016_201706.html">
                 <img src="http://grfx.cstv.com/story-nav/icon-mail2.png" alt="email" /> <span class="share-lg">Email</span></a>
             </li>
             <li>
@@ -580,7 +580,7 @@ td.calday {
 <TD align="center">
 
 <IMG src="http://graphics.fansonly.com/schools/pitt/graphics/spacer.gif" height="18" width="1" border="0"><BR>
-<h3>May 2017</h3><br>
+<h3>June 2017</h3><br>
 <img src="http://graphics.fansonly.com/schools/pitt/graphics/spacer.gif" height="8" width="1" border="0"></TD>
 
 </TR>
@@ -603,6 +603,18 @@ td.calday {
 
 	
 </td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber"></span> <br />
+
+	
+</td><td class="calday">
 	<span class="daynumber">01</span> <br />
 
 	
@@ -610,29 +622,15 @@ td.calday {
 	<span class="daynumber">02</span> <br />
 
 	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Maryland Eastern Shore <img src="http://grfx.cstv.com/graphics/school-logos/mdes-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
 </td><td class="calday">
 	<span class="daynumber">03</span> <br />
 
 	
+</td>
+</tr>
 
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Maryland Eastern Shore <img src="http://grfx.cstv.com/graphics/school-logos/mdes-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>1:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
-</td><td class="calday">
+<tr valign="top">
+<td class="calday">
 	<span class="daynumber">04</span> <br />
 
 	
@@ -640,61 +638,21 @@ td.calday {
 	<span class="daynumber">05</span> <br />
 
 	
-
-	<div class="calcontent">
-			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Atlanta, Ga.
-			
-	</div>
-	
 </td><td class="calday">
 	<span class="daynumber">06</span> <br />
 
 	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Atlanta, Ga.
-			<br>ACCN Extra
-	</div>
-	
-
-	<div class="calcontent">
-			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>7:00 PM
-			<br>Atlanta, Ga.
-			
-	</div>
-	
-</td>
-</tr>
-
-<tr valign="top">
-<td class="calday">
+</td><td class="calday">
 	<span class="daynumber">07</span> <br />
 
 	
 
 	<div class="calcontent">
-			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>1:00 PM
-			<br>Atlanta, Ga.
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Eugene, Ore.
 			
-	</div>
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Atlanta, Ga.
-			<br>ROOT SPORTS
 	</div>
 	
 </td><td class="calday">
@@ -703,16 +661,25 @@ td.calday {
 	
 
 	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Georgia Tech <img src="http://grfx.cstv.com/graphics/school-logos/geot-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>7:00 PM
-			<br>Atlanta, Ga.
-			<br>ESPN U
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Eugene, Ore.
+			
 	</div>
 	
 </td><td class="calday">
 	<span class="daynumber">09</span> <br />
 
+	
+
+	<div class="calcontent">
+			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
+			<br>NCAA Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+      <br>All Day
+			<br>Eugene, Ore.
+			
+	</div>
 	
 </td><td class="calday">
 	<span class="daynumber">10</span> <br />
@@ -720,67 +687,10 @@ td.calday {
 	
 
 	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Youngstown State <img src="http://grfx.cstv.com/graphics/school-logos/youn-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">11</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/w-softbl/sched/pitt-w-softbl-sched.html" class="LiveEvent">Softball</a>
-			<br>ACC Softball Tournament <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>TBA
-			<br>Chapel Hill, N.C.
-			
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">12</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
-
-	<div class="calcontent">
 			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
+			<br>NCAA Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
       <br>All Day
-			<br>Atlanta, Ga.
-			
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">13</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
-
-	<div class="calcontent">
-			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>All Day
-			<br>Atlanta, Ga.
+			<br>Eugene, Ore.
 			
 	</div>
 	
@@ -789,26 +699,20 @@ td.calday {
 
 <tr valign="top">
 <td class="calday">
+	<span class="daynumber">11</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">12</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">13</span> <br />
+
+	
+</td><td class="calday">
 	<span class="daynumber">14</span> <br />
 
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>North Carolina State <img src="http://grfx.cstv.com/graphics/school-logos/ncst-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>1:00 PM
-			<br>Charles L. Cost Field
-			<br>ACCN Extra
-	</div>
-	
-
-	<div class="calcontent">
-			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>ACC Outdoor Championships <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>All Day
-			<br>Atlanta, Ga.
-			
-	</div>
 	
 </td><td class="calday">
 	<span class="daynumber">15</span> <br />
@@ -818,63 +722,27 @@ td.calday {
 	<span class="daynumber">16</span> <br />
 
 	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>West Virginia <img src="http://grfx.cstv.com/graphics/school-logos/wvir-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:30 PM
-			<br>Morgantown, W.Va.
-			
-	</div>
-	
 </td><td class="calday">
 	<span class="daynumber">17</span> <br />
 
-	
-</td><td class="calday">
-	<span class="daynumber">18</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Winston-Salem, N.C.
-			<br>ACCN Extra
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">19</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>6:00 PM
-			<br>Winston-Salem, N.C.
-			<br>ACCN Extra
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">20</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/m-basebl/sched/pitt-m-basebl-sched.html" class="LiveEvent">Baseball</a>
-			<br>Wake Forest <img src="http://grfx.cstv.com/graphics/school-logos/wake-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>1:00 PM
-			<br>Winston-Salem, N.C.
-			<br>ACCN Extra
-	</div>
 	
 </td>
 </tr>
 
 <tr valign="top">
 <td class="calday">
+	<span class="daynumber">18</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">19</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">20</span> <br />
+
+	
+</td><td class="calday">
 	<span class="daynumber">21</span> <br />
 
 	
@@ -890,50 +758,23 @@ td.calday {
 	<span class="daynumber">24</span> <br />
 
 	
-</td><td class="calday">
-	<span class="daynumber">25</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>All Day
-			<br>Lexington, Ky.
-			
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">26</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>All Day
-			<br>Lexington, Ky.
-			
-	</div>
-	
-</td><td class="calday">
-	<span class="daynumber">27</span> <br />
-
-	
-
-	<div class="calcontent">
-			<a href="/sports/c-track/sched/pitt-c-track-sched.html" class="LiveEvent">Track</a>
-			<br>NCAA East Preliminary Rounds <img src="http://grfx.cstv.com/graphics/school-logos/-lg.png" alt="Opponent" border="0" class="calopplogo">
-      <br>All Day
-			<br>Lexington, Ky.
-			
-	</div>
-	
 </td>
 </tr>
 
 <tr valign="top">
 <td class="calday">
+	<span class="daynumber">25</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">26</span> <br />
+
+	
+</td><td class="calday">
+	<span class="daynumber">27</span> <br />
+
+	
+</td><td class="calday">
 	<span class="daynumber">28</span> <br />
 
 	
@@ -943,18 +784,6 @@ td.calday {
 	
 </td><td class="calday">
 	<span class="daynumber">30</span> <br />
-
-	
-</td><td class="calday">
-	<span class="daynumber">31</span> <br />
-
-	
-</td><td class="calday">
-	<span class="daynumber"></span> <br />
-
-	
-</td><td class="calday">
-	<span class="daynumber"></span> <br />
 
 	
 </td><td class="calday">
@@ -1005,21 +834,21 @@ function fanslauncher(url) {
   <div class="module">
     <div id="ad-rail">
       <div class="site-ad">
-        <div id="div-gpt-8358962">
+        <div id="div-gpt-6704048">
   <script type='text/javascript'>
        googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[300,250],[300,600]], 'div-gpt-8358962') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[300,250],[300,600]], 'div-gpt-6704048') 
       .addService(googletag.pubads())
-      .setTargeting("pos", isViewable('div-gpt-8358962', 250, 0.5))
+      .setTargeting("pos", isViewable('div-gpt-6704048', 250, 0.5))
       .setTargeting("pos2", "rail")
       .setTargeting("session", MadisonSessionCode)
       .setTargeting("firstpage", adFirstpage)
       .setTargeting("dcopt", "ist")
-      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201706.html"))  
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-8358962');
+      googletag.display('div-gpt-6704048');
   });
   </script>
 </div>
@@ -1040,43 +869,43 @@ function fanslauncher(url) {
       </a>
   </li>
   
-  <li class="top15-headlines-wrap m-basebl">
-      <a class="top15 m-basebl" data-sport="m-basebl" href="/sports/m-basebl/spec-rel/032017aac.html">
-          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-basebl.png" alt="" /></div>
-          <div class="date">3/20/2017</div>
-          <h3>Panthers Head to Kent For Mid-Week</h3>
+  <li class="top15-headlines-wrap genrel">
+      <a class="top15 genrel" data-sport="genrel" href="/genrel/032117aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-genrel.png" alt="" /></div>
+          <div class="date">3/21/2017</div>
+          <h3>Rathsack, Falk Collect First National Bank Weekly Honors</h3>
       </a>
   </li>
   
-  <li class="top15-headlines-wrap w-gym">
-      <a class="top15 w-gym" data-sport="w-gym" href="/sports/w-gym/spec-rel/032017aab.html">
-          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-w-gym.png" alt="" /></div>
-          <div class="date">3/20/2017</div>
-          <h3>Pearson, Laymon Earn Regional Selections</h3>
-      </a>
-  </li>
-  
-  <li class="top15-headlines-wrap m-basebl">
-      <a class="top15 m-basebl" data-sport="m-basebl" href="/sports/m-basebl/recaps/031917aaa.html">
-          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-basebl.png" alt="" /></div>
-          <div class="date">3/19/2017</div>
-          <h3>Panthers Split Doubleheader with Fighting Irish</h3>
-      </a>
-  </li>
-  
-  <li class="top15-headlines-wrap w-tennis">
-      <a class="top15 w-tennis" data-sport="w-tennis" href="/sports/w-tennis/recaps/031917aaa.html">
-          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-w-tennis.png" alt="" /></div>
-          <div class="date">3/19/2017</div>
-          <h3>Panthers Fall to Clemson on the Road</h3>
+  <li class="top15-headlines-wrap m-footbl">
+      <a class="top15 m-footbl" data-sport="m-footbl" href="/sports/m-footbl/spec-rel/032117aaa.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-footbl.png" alt="" /></div>
+          <div class="date">3/21/2017</div>
+          <h3>Pitt Football Spring Drills: Day 4 Recap</h3>
       </a>
   </li>
   
   <li class="top15-headlines-wrap w-softbl">
-      <a class="top15 w-softbl" data-sport="w-softbl" href="/sports/w-softbl/recaps/031917aaa.html">
+      <a class="top15 w-softbl" data-sport="w-softbl" href="/sports/w-softbl/spec-rel/032117aab.html">
           <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-w-softbl.png" alt="" /></div>
-          <div class="date">03/19/2017</div>
-          <h3>Pitt Falls in Series Finale at Louisville</h3>
+          <div class="date">3/21/2017</div>
+          <h3>Pitt Hosts Kent State to Open Home Slate</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap m-basebl">
+      <a class="top15 m-basebl" data-sport="m-basebl" href="/sports/m-basebl/recaps/032117aab.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-basebl.png" alt="" /></div>
+          <div class="date">3/21/2017</div>
+          <h3>Ninth Inning Comeback Stopped Short at Kent State</h3>
+      </a>
+  </li>
+  
+  <li class="top15-headlines-wrap m-basebl">
+      <a class="top15 m-basebl" data-sport="m-basebl" href="/sports/m-basebl/spec-rel/032017aac.html">
+          <div class="icon"><img src="http://grfx.cstv.com/schools/pitt/graphics/pitt-15-headline-icon-m-basebl.png" alt="" /></div>
+          <div class="date">03/20/2017</div>
+          <h3>Panthers Head to Kent For Mid-Week</h3>
       </a>
   </li>
   
@@ -1116,7 +945,7 @@ function fanslauncher(url) {
 
 <div class="light section story-superleader-section">
   <div class="container">
-  <div id="div-gpt-3664295">
+  <div id="div-gpt-1115438">
   <script type='text/javascript'>
       
 if(typeof(gptMap_superleader) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
@@ -1132,7 +961,7 @@ addSize([100,50],[[970,66],[970,90]]).
 build();
 }
  googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', superleader_size, 'div-gpt-3664295') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', superleader_size, 'div-gpt-1115438') 
       .defineSizeMapping(gptMap_superleader)
       .addService(googletag.pubads())
       .setTargeting("pos", "bottom")
@@ -1140,11 +969,11 @@ build();
       .setTargeting("session", MadisonSessionCode)
       .setTargeting("firstpage", adFirstpage)
       .setTargeting("dcopt", "ist")
-      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201706.html"))  
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-3664295');
+      googletag.display('div-gpt-1115438');
   });
   </script>
 </div>
@@ -1637,7 +1466,7 @@ $(function(){
 
 <div id="sticky-footer">
   <div class="site-ad">
-    <div id="div-gpt-6234431">
+    <div id="div-gpt-9723998">
   <script type='text/javascript'>
       
 if(typeof(gptMap_sticky970x66) == 'undefined' && (window.oas_site_config && window.oas_site_config.responsive)){ // RESPONSIVE
@@ -1653,7 +1482,7 @@ addSize([100,50],[[970,66],[970,90]]).
 build();
 }
  googletag.cmd.push(function(){
-      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[970,66],[970,90],[728,90],[320,50]], 'div-gpt-6234431') 
+      googletag.defineSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', [[970,66],[970,90],[728,90],[320,50]], 'div-gpt-9723998') 
       .defineSizeMapping(gptMap_sticky970x66)
       .addService(googletag.pubads())
       .setTargeting("pos", "top")
@@ -1661,11 +1490,11 @@ build();
       .setTargeting("session", MadisonSessionCode)
       .setTargeting("firstpage", adFirstpage)
       .setTargeting("dcopt", "ist")
-      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html"))  
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201706.html"))  
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-6234431');
+      googletag.display('div-gpt-9723998');
   });
   </script>
 </div>
@@ -1699,20 +1528,20 @@ $("a[href^=#coaches]").on('click', function comeJumptoEm(e){
 
 
 <!-- OutOfPage Ad - aka Intromercial -->
-<div id="div-gpt-7141171">
+<div id="div-gpt-3208059">
   <script type='text/javascript'>
     googletag.cmd.push(function(){
-      googletag.defineOutOfPageSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', 'div-gpt-7141171')
+      googletag.defineOutOfPageSlot('/4177/CSTV.PITT/CALENDAR.EVENTS', 'div-gpt-3208059')
       .addService(googletag.pubads())
       .setTargeting("pos2", "popup")
       .setTargeting("session", MadisonSessionCode)
       .setTargeting("firstpage", adFirstpage)
       .setTargeting("dcopt", "ist")
-      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201705.html")) 
+      .setTargeting("dc_ref", encodeURIComponent("www.pittsburghpanthers.com/calendar/events/2016_201706.html")) 
       .setTargeting("sect", "");
       googletag.pubads().enableSyncRendering();
       googletag.enableServices();
-      googletag.display('div-gpt-7141171');
+      googletag.display('div-gpt-3208059');
   });
   </script>
 </div>
@@ -1742,7 +1571,7 @@ utag_data = {
     siteId: '225',
     c2: '3000082',
     pageViewGuid: v1(),
-    articleId: '2016_201705',
+    articleId: '2016_201706',
     articlePubDate: '',
     articleTitle: get_page_title(),
     articleType: '',
@@ -1794,7 +1623,7 @@ var _rsCL=1;
   DW.clear();
 </script>
 <noscript>
-<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1490063398&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
+<img src="http://dw.cbsi.com/levt/video/e.gif?ts=1490144084&amp;sid=225&amp;im=img" border="0" height="1" width="1" alt="" />
 </noscript>
 
 <!-- Comscore tag -->
